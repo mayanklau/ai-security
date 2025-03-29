@@ -1,0 +1,8 @@
+No obvious issue for payload: 1. XSS payload:
+No obvious issue for payload: <script>alert('XSS vulnerability')</script>
+Potential issue detected with payload: 
+No obvious issue for payload: 2. SQL Injection payload:
+No obvious issue for payload: ' OR 1=1;--
+Potential issue detected with payload: 
+No obvious issue for payload: 3. Directory Traversal payload:
+No obvious issue for payload: ../../../../../../../../../../../../etc/passwd

