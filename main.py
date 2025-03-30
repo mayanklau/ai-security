@@ -25,7 +25,7 @@ def tag_payloads(api_key):
     results = []
 
     print(f"[•] Tagging first 100 payloads using GPT...")
-    for p in payloads[:100]:
+    for p in payloads:
         try:
             res = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
@@ -61,7 +61,7 @@ def test_payloads(url):
     results = []
 
     print(f"[•] Testing payloads against: {url}")
-    for p in payloads[:100]:  # Test 100 for speed
+    for p in payloads:  # Test all payloads
         try:
             r = requests.get(url, params={"input": p}, timeout=10)
             is_reflected = p in r.text
