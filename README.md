@@ -1,7 +1,3 @@
-Here’s a detailed and README-optimized version with all current features, written clearly and professionally within typical limits:
-
-
----
 
 Agentic Security Toolkit
 
