@@ -1,502 +1,502 @@
 [
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by trying to include the `/etc/passwd` file. \n\nRisk level: High",
-    "timestamp": "2025-03-30T12:46:56.065302"
+    "payload": "<script>alert(113)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849880"
   },
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "Tag: LFI\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:46:56.772316"
+    "payload": "; cat /etc/passwd #64",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849929"
   },
   {
-    "payload": "; cat /etc/passwd #90",
-    "gpt_tag": "This payload is attempting a Local File Inclusion (LFI) attack by trying to read the contents of the `/etc/passwd` file. \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:46:57.590112"
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849949"
   },
   {
-    "payload": "; cat /etc/passwd #118",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by trying to read the contents of the \"/etc/passwd\" file on the server. It has a risk level of Medium, as it could potentially disclose sensitive information about the server's users.",
-    "timestamp": "2025-03-30T12:46:58.612084"
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849963"
   },
   {
-    "payload": "' OR 77=77 --",
-    "gpt_tag": "This payload is an example of SQL injection (SQLi) as it attempts to manipulate the query logic to always return true. The risk level is Medium, as it indicates a potential vulnerability that could be used by an attacker to extract or manipulate data from the database.",
-    "timestamp": "2025-03-30T12:47:04.656601"
+    "payload": "<script>alert(134)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849971"
   },
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an example of a Local File Inclusion (LFI) attack. It attempts to access the `/etc/passwd` file on the server by traversing up the directory structure. \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:47:05.694121"
+    "payload": "; cat /etc/passwd #128",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849977"
   },
   {
-    "payload": "' OR 91=91 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi) attack. \n\nRisk level: High",
-    "timestamp": "2025-03-30T12:47:06.397168"
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849983"
   },
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "Tag: LFI\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:07.114599"
+    "payload": "<script>alert(32)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849988"
   },
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an LFI (Local File Inclusion) attack. It tries to access the `/etc/passwd` file by traversing up the directory structure multiple times. \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:47:08.048530"
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849993"
   },
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "Tag: LFI\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:08.751981"
+    "payload": "; cat /etc/passwd #127",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.849999"
   },
   {
-    "payload": "; cat /etc/passwd #100",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by trying to read the `/etc/passwd` file on the server. This can potentially leak sensitive information about the system and its users. The risk level of this payload is Medium.",
-    "timestamp": "2025-03-30T12:47:09.977026"
+    "payload": "<script>alert(97)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850004"
   },
   {
-    "payload": "; cat /etc/passwd #124",
-    "gpt_tag": "This payload is attempting a Local File Inclusion (LFI) attack by trying to access the '/etc/passwd' file on the server. The addition of the comment symbol \"#\" and the number \"124\" at the end of the payload seems to be an attempt to bypass any filters or restrictions that may be in place.\n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:11.111828"
+    "payload": "; cat /etc/passwd #81",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850009"
   },
   {
-    "payload": "<script>alert(100)</script>",
-    "gpt_tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
-    "timestamp": "2025-03-30T12:47:12.438662"
+    "payload": "; cat /etc/passwd #49",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850016"
   },
   {
-    "payload": "' OR 51=51 --",
-    "gpt_tag": "This payload is for SQL injection (SQLi) attack. It aims to manipulate the SQL query to always evaluate the condition '51=51', which is always true. This could potentially lead to unauthorized access, data leakage, data manipulation, or other nefarious actions.\n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:13.464763"
+    "payload": "; cat /etc/passwd #79",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850027"
   },
   {
-    "payload": "; cat /etc/passwd #3",
-    "gpt_tag": "This payload is attempting a Local File Inclusion (LFI) attack by trying to read the `/etc/passwd` file on the server. \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:14.385486"
+    "payload": "<script>alert(184)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850037"
   },
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an example of a Local File Inclusion (LFI) attack. It attempts to access the system file \"/etc/passwd\" by traversing through directories with \"../\". \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:47:15.306752"
+    "payload": "<script>alert(25)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850042"
   },
   {
-    "payload": "' OR 113=113 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi) attack. The risk level is High as it can manipulate SQL queries and potentially access, modify, or delete data in the database.",
-    "timestamp": "2025-03-30T12:47:16.222958"
+    "payload": "<script>alert(14)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850047"
   },
   {
-    "payload": "' OR 79=79 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi) attack. It attempts to inject a condition that will always be true in order to bypass the authentication system or to retrieve sensitive information from the database.\n\nRisk level: High",
-    "timestamp": "2025-03-30T12:47:17.250509"
+    "payload": "<script>alert(170)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850052"
   },
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is attempting a Local File Inclusion (LFI) attack by trying to access the `/etc/passwd` file in the directory traversal process. \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:18.375592"
+    "payload": "' OR 88=88 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850058"
   },
   {
-    "payload": "' OR 57=57 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi) attempt. The risk level is considered Low as it is a basic example that is unlikely to cause harm.",
-    "timestamp": "2025-03-30T12:47:19.300146"
+    "payload": "; cat /etc/passwd #148",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850063"
   },
   {
-    "payload": "' OR 92=92 --",
-    "gpt_tag": "This payload is for SQL injection (SQLi) and the risk level is High.",
-    "timestamp": "2025-03-30T12:47:20.221378"
+    "payload": "; cat /etc/passwd #173",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850068"
   },
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an example of a Local File Inclusion (LFI) attack. It attempts to access the system's password file located at \"/etc/passwd\" by traversing through directory structures.\n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:47:21.447347"
+    "payload": "; cat /etc/passwd #97",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850073"
   },
   {
-    "payload": "; cat /etc/passwd #40",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by trying to read the contents of the '/etc/passwd' file. It is trying to execute the 'cat' command on the target system.\n\nRisk Level: High\n\nIt is a high risk because it can potentially leak sensitive information such as user credentials and system configuration details.",
-    "timestamp": "2025-03-30T12:47:22.676868"
+    "payload": "; cat /etc/passwd #104",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850078"
   },
   {
-    "payload": "' OR 100=100 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi) attack. Its risk level is High.",
-    "timestamp": "2025-03-30T12:47:23.394670"
+    "payload": "' OR 199=199 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850083"
   },
   {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an Directory Traversal attack trying to access the `/etc/passwd` file which contains sensitive information about the system's users. This payload is attempting a Local File Inclusion (LFI) attack. \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:47:24.317822"
+    "payload": "<script>alert(56)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850088"
   },
   {
-    "payload": "<script>alert(172)</script>",
-    "gpt_tag": "This payload is an XSS (Cross-Site Scripting) attack. The risk level is considered as Low.",
-    "timestamp": "2025-03-30T12:47:25.033933"
+    "payload": "' OR 101=101 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850093"
   },
   {
-    "payload": "<script>alert(124)</script>",
-    "gpt_tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
-    "timestamp": "2025-03-30T12:47:25.750310"
+    "payload": "; cat /etc/passwd #77",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850101"
   },
   {
-    "payload": "' OR 107=107 --",
-    "gpt_tag": "XSS, Low",
-    "timestamp": "2025-03-30T12:47:26.368060"
-  },
-  {
-    "payload": "; cat /etc/passwd #195",
-    "gpt_tag": "This payload is attempting to perform a command injection using a Unix command to read the `/etc/passwd` file. This is typically used to ascertain information about the system and its users, which could lead to further exploitation.\n\n- Type: RCE (Remote Command Execution)\n- Risk: High",
-    "timestamp": "2025-03-30T12:47:27.590900"
-  },
-  {
-    "payload": "' OR 154=154 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi) payload and has a Low risk level. It is attempting to make the SQL query always evaluate to true by injecting the condition `154=154`. This type of injection can potentially bypass authentication, extract sensitive data, or modify the database.",
-    "timestamp": "2025-03-30T12:47:28.720097"
-  },
-  {
-    "payload": "' OR 118=118 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi) attempt. It tries to bypass authentication by injecting a condition that is always true. \n\nRisk Level: Low",
-    "timestamp": "2025-03-30T12:47:29.642975"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is attempting a Local File Inclusion (LFI) attack by trying to access the `/etc/passwd` file. The risk level is Medium as it can potentially disclose sensitive information about the server's users.",
-    "timestamp": "2025-03-30T12:47:30.869139"
-  },
-  {
-    "payload": "' OR 42=42 --",
-    "gpt_tag": "This payload is a classic example of a SQL injection (SQLi) attack. It attempts to bypass authentication by making the SQL query always return true by injecting ' OR 42=42 -- into the SQL query. This would cause the query to become 'SELECT * FROM users WHERE username='' OR 42=42 --' which would return all users from the database.\n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:32.202550"
-  },
-  {
-    "payload": "; cat /etc/passwd #20",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by trying to read the contents of the `/etc/passwd` file.  \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:33.226976"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by trying to access the '/etc/passwd' file on the server. The risk level of this payload is Low, as it is only attempting to read the '/etc/passwd' file and not directly execute any malicious code.",
-    "timestamp": "2025-03-30T12:47:34.252054"
-  },
-  {
-    "payload": "' OR 128=128 --",
-    "gpt_tag": "This payload is an example of a SQL injection (SQLi) attack. The payload is attempting to bypass authentication by injecting a condition that always evaluates to true ('128=128'). It is a classic example of a Boolean-based blind SQL injection.\n\nRisk level: Medium",
-    "timestamp": "2025-03-30T12:47:35.682893"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an LFI (Local File Inclusion) payload. It tries to fetch the contents of the system's password file by traversing directories up to the root and then accessing the `etc/passwd` file. The risk level of this payload is Medium as it could potentially expose sensitive information about users on the server.",
-    "timestamp": "2025-03-30T12:47:37.117423"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by manipulating the file path to access the `/etc/passwd` file. The risk level is Low, as the `/etc/passwd` file is generally not accessible to non-admin users and does not pose a direct security threat.",
-    "timestamp": "2025-03-30T12:47:38.345405"
-  },
-  {
-    "payload": "' OR 56=56 --",
-    "gpt_tag": "This payload is an example of a SQL injection (SQLi) attack. It attempts to bypass authentication by injecting a condition that always evaluates to true ('56=56'). The \"--\" at the end is used to comment out the rest of the query.\n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:39.370780"
-  },
-  {
-    "payload": "<script>alert(175)</script>",
-    "gpt_tag": "XSS, Medium",
-    "timestamp": "2025-03-30T12:47:40.498084"
-  },
-  {
-    "payload": "; cat /etc/passwd #188",
-    "gpt_tag": "Tag: LFI, RCE\nRisk level: High",
-    "timestamp": "2025-03-30T12:47:41.057886"
-  },
-  {
-    "payload": "<script>alert(23)</script>",
-    "gpt_tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
-    "timestamp": "2025-03-30T12:47:41.724567"
-  },
-  {
-    "payload": "<script>alert(51)</script>",
-    "gpt_tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
-    "timestamp": "2025-03-30T12:47:42.544153"
-  },
-  {
-    "payload": "<script>alert(52)</script>",
-    "gpt_tag": "This payload is a reflected Cross-Site Scripting (XSS) vulnerability. The risk level is Low.",
-    "timestamp": "2025-03-30T12:47:43.671923"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "Tag: LFI\nRisk level: High",
-    "timestamp": "2025-03-30T12:47:44.398190"
-  },
-  {
-    "payload": "' OR 54=54 --",
-    "gpt_tag": "This payload is an example of a SQL injection (SQLi) attack. It attempts to manipulate a SQL query by making the condition 54=54 always true, effectively bypassing any login or authentication check that may be present in the query.\n\nRisk level: High",
-    "timestamp": "2025-03-30T12:47:45.515630"
-  },
-  {
-    "payload": "' OR 67=67 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi). The risk level is High as it can potentially manipulate the query logic and access unauthorized data from the database.",
-    "timestamp": "2025-03-30T12:47:46.638875"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "Tag: LFI\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:47.252793"
-  },
-  {
-    "payload": "; cat /etc/passwd #155",
-    "gpt_tag": "This payload is attempting to exploit a Local File Inclusion (LFI) vulnerability by trying to access the contents of the `/etc/passwd` file using the `cat` command.  \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:47:48.178324"
-  },
-  {
-    "payload": "<script>alert(162)</script>",
-    "gpt_tag": "XSS (Cross-Site Scripting) - Medium",
-    "timestamp": "2025-03-30T12:47:48.997825"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "Tag: LFI\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:49.818256"
-  },
-  {
-    "payload": "' OR 84=84 --",
-    "gpt_tag": "This payload is an example of SQL injection (SQLi) and has a risk level of Medium.",
-    "timestamp": "2025-03-30T12:47:50.635515"
-  },
-  {
-    "payload": "<script>alert(182)</script>",
-    "gpt_tag": "Tag: XSS\nRisk level: Low",
-    "timestamp": "2025-03-30T12:47:51.962331"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "Tag: LFI\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:52.784459"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "Type: LFI (Local File Inclusion)\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:47:53.503527"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an attempt to perform a Local File Inclusion (LFI) attack by trying to access the \"/etc/passwd\" file on the server. The risk level for this payload is Low because it only tries to read a sensitive file and does not directly execute any malicious code.",
-    "timestamp": "2025-03-30T12:47:54.632213"
-  },
-  {
-    "payload": "; cat /etc/passwd #18",
-    "gpt_tag": "XSS, Low",
-    "timestamp": "2025-03-30T12:47:55.346637"
-  },
-  {
-    "payload": "<script>alert(74)</script>",
-    "gpt_tag": "This payload is tagged as XSS (Cross-Site Scripting) and its risk level is Low, as it merely alerts the number 74 on the page.",
-    "timestamp": "2025-03-30T12:47:56.267785"
+    "payload": "' OR 166=166 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850111"
   },
   {
     "payload": "../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an example of Local File Inclusion (LFI) attack. It attempts to access the `/etc/passwd` file on a Unix-based system which contains user account information. This vulnerability could potentially lead to unauthorized disclosure of sensitive data.\n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:47:57.406949"
-  },
-  {
-    "payload": "' OR 163=163 --",
-    "gpt_tag": "This payload is an example of a SQL injection (SQLi) attack. It attempts to manipulate the SQL query to always return true by using a logical comparison (163=163), resulting in a successful authentication bypass. \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:47:59.342992"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an LFI (Local File Inclusion) payload. \n\nRisk level: Low",
-    "timestamp": "2025-03-30T12:48:00.054497"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload appears to be attempting a Local File Inclusion (LFI) attack. The risk level is Medium, as it could potentially disclose sensitive system information if the application is vulnerable to LFI.",
-    "timestamp": "2025-03-30T12:48:00.876724"
-  },
-  {
-    "payload": "; cat /etc/passwd #162",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by exploiting the vulnerability to read the contents of the passwd file on the server. \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:48:01.795702"
-  },
-  {
-    "payload": "; cat /etc/passwd #27",
-    "gpt_tag": "The provided payload is attempting a Local File Inclusion (LFI) attack by using the semicolon to potentially chain commands and read the \"/etc/passwd\" file, followed by a comment character \"#\". The risk level for this payload is Medium, as successful LFI attacks can potentially lead to unauthorized access to sensitive information stored in system files.",
-    "timestamp": "2025-03-30T12:48:03.058550"
-  },
-  {
-    "payload": "; cat /etc/passwd #42",
-    "gpt_tag": "This payload is attempting a Local File Inclusion (LFI) attack. It is trying to read the `/etc/passwd` file on the server. \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:48:03.948684"
-  },
-  {
-    "payload": "; cat /etc/passwd #178",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by injecting a command to read the contents of the `/etc/passwd` file. \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:48:04.871963"
-  },
-  {
-    "payload": "; cat /etc/passwd #17",
-    "gpt_tag": "This payload appears to be attempting a Local File Inclusion (LFI) vulnerability by trying to read the contents of the `/etc/passwd` file. \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:48:05.895301"
-  },
-  {
-    "payload": "<script>alert(122)</script>",
-    "gpt_tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
-    "timestamp": "2025-03-30T12:48:06.610007"
-  },
-  {
-    "payload": "<script>alert(80)</script>",
-    "gpt_tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low. While the payload is a basic XSS script that triggers an alert with the number 80, it does not appear to have any capability to steal sensitive information or execute malicious actions.",
-    "timestamp": "2025-03-30T12:48:07.940633"
-  },
-  {
-    "payload": "; cat /etc/passwd #37",
-    "gpt_tag": "This payload is attempting a Local File Inclusion (LFI) attack by trying to read the contents of the `/etc/passwd` file. The risk level is Medium as it could potentially expose sensitive system information, but it depends on the configuration of the target system.",
-    "timestamp": "2025-03-30T12:48:08.963407"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is attempting to perform a directory traversal attack by trying to access the \"/etc/passwd\" file by traversing up the directory structure multiple times. This payload is targeting a Local File Inclusion (LFI) vulnerability. \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:48:10.093312"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is attempting to perform Local File Inclusion (LFI) attack. \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:48:10.809003"
-  },
-  {
-    "payload": "<script>alert(45)</script>",
-    "gpt_tag": "This payload is classified as XSS (Cross-Site Scripting) with a risk level of Low.",
-    "timestamp": "2025-03-30T12:48:11.631246"
-  },
-  {
-    "payload": "' OR 133=133 --",
-    "gpt_tag": "This payload is a classic example of SQL injection (SQLi), as it tries to manipulate the SQL query to always return true by injecting ' OR 133=133 --. This can allow an attacker to bypass authentication, retrieve sensitive data, modify database records, etc.\n\nRisk level: High",
-    "timestamp": "2025-03-30T12:48:12.855141"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an LFI (Local File Inclusion) attack. Its risk level is Medium as it can potentially lead to sensitive information disclosure.",
-    "timestamp": "2025-03-30T12:48:13.680988"
-  },
-  {
-    "payload": "; cat /etc/passwd #191",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by trying to read the content of the `/etc/passwd` file. This could potentially expose sensitive information such as usernames and hashed passwords.\n\nRisk Level: High\nClassification: LFI",
-    "timestamp": "2025-03-30T12:48:14.902238"
-  },
-  {
-    "payload": "; cat /etc/passwd #75",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by trying to read the contents of the \"/etc/passwd\" file. The risk level is Medium as it could potentially expose sensitive system information, such as user accounts on the target system.",
-    "timestamp": "2025-03-30T12:48:16.030643"
-  },
-  {
-    "payload": "<script>alert(65)</script>",
-    "gpt_tag": "XSS, Low",
-    "timestamp": "2025-03-30T12:48:16.748449"
-  },
-  {
-    "payload": "' OR 111=111 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi) attempt. It aims to bypass authentication by injecting a condition that is always true (111=111). This payload poses a High risk level as it can lead to unauthorized access to sensitive data or operations within the database.",
-    "timestamp": "2025-03-30T12:48:17.806523"
-  },
-  {
-    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
-    "gpt_tag": "This payload is an example of a Local File Inclusion (LFI) attack. It attempts to read the contents of the `/etc/passwd` file on the target system.\n\nRisk level: High",
-    "timestamp": "2025-03-30T12:48:18.899206"
-  },
-  {
-    "payload": "<script>alert(194)</script>",
-    "gpt_tag": "Tag: XSS\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:48:19.546695"
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850121"
   },
   {
     "payload": "; cat /etc/passwd #9",
-    "gpt_tag": "This payload is attempting a Local File Inclusion (LFI) attack by injecting a command to read the `/etc/passwd` file. The risk level is Medium.",
-    "timestamp": "2025-03-30T12:48:20.374835"
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850126"
   },
   {
-    "payload": "<script>alert(195)</script>",
-    "gpt_tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.",
-    "timestamp": "2025-03-30T12:48:21.111121"
+    "payload": "' OR 75=75 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850132"
   },
   {
-    "payload": "<script>alert(167)</script>",
-    "gpt_tag": "This payload is an XSS (Cross-Site Scripting) attack. It injects a simple script that displays an alert box with the number 167 when the targeted webpage is loaded. \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:48:22.050474"
+    "payload": "<script>alert(21)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850136"
   },
   {
-    "payload": "' OR 172=172 --",
-    "gpt_tag": "This payload is an example of SQL injection (SQLi) and it is classified as a High risk level. This payload is attempting to bypass authentication by including a condition that will always evaluate to true, allowing an attacker to potentially gain unauthorized access to a system or manipulate the database.",
-    "timestamp": "2025-03-30T12:48:23.096190"
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850142"
   },
   {
-    "payload": "' OR 102=102 --",
-    "gpt_tag": "This payload is an example of a SQL injection. It tries to make the SQL query always return true by injecting the condition `102=102`. \n\nRisk Level: High\nClassification: SQLi",
-    "timestamp": "2025-03-30T12:48:24.119473"
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850147"
   },
   {
-    "payload": "; cat /etc/passwd #147",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack by trying to read the contents of the '/etc/passwd' file on the server. \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:48:25.041902"
+    "payload": "<script>alert(57)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850152"
   },
   {
-    "payload": "<script>alert(125)</script>",
-    "gpt_tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.",
-    "timestamp": "2025-03-30T12:48:25.861202"
+    "payload": "' OR 40=40 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850156"
   },
   {
-    "payload": "; cat /etc/passwd #92",
-    "gpt_tag": "This payload is attempting to execute a Local File Inclusion (LFI) attack by trying to read the `/etc/passwd` file on the target system. It has a low risk level as it only tries to read system files and does not attempt to modify or execute commands on the system.",
-    "timestamp": "2025-03-30T12:48:26.986537"
+    "payload": "' OR 127=127 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850161"
   },
   {
-    "payload": "<script>alert(35)</script>",
-    "gpt_tag": "XSS - Cross-Site Scripting\nRisk Level: Low",
-    "timestamp": "2025-03-30T12:48:27.705057"
+    "payload": "<script>alert(164)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850181"
   },
   {
-    "payload": "<script>alert(155)</script>",
-    "gpt_tag": "This payload is categorized as XSS (Cross-Site Scripting) and its risk level is Low.",
-    "timestamp": "2025-03-30T12:48:29.029945"
+    "payload": "; cat /etc/passwd #54",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850188"
   },
   {
-    "payload": "<script>alert(47)</script>",
-    "gpt_tag": "This payload is tagged as XSS (Cross-Site Scripting) and its risk level is Low. It simply alerts the number 47 and doesn't perform any malicious actions.",
-    "timestamp": "2025-03-30T12:48:30.076170"
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850193"
   },
   {
-    "payload": "; cat /etc/passwd #73",
-    "gpt_tag": "Type: LFI\nRisk: High",
-    "timestamp": "2025-03-30T12:48:30.774874"
+    "payload": "; cat /etc/passwd #135",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850198"
   },
   {
-    "payload": "' OR 44=44 --",
-    "gpt_tag": "This payload is an example of a classic SQL injection (SQLi) attack. It attempts to bypass authentication by injecting a condition that is always true ('44=44'). The double hyphen (--) is used to comment out the remaining part of the query to avoid any syntax errors.\n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:48:31.800352"
+    "payload": "' OR 146=146 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850203"
   },
   {
-    "payload": "' OR 69=69 --",
-    "gpt_tag": "This payload is attempting SQL injection by adding a logical condition that is always true ('69=69') and a double dash (--), which comments out the rest of the SQL query. This could potentially manipulate the logic of the original SQL query and retrieve unintended data from the database.\n\nRisk Level: High\nType: SQLi",
-    "timestamp": "2025-03-30T12:48:32.926810"
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850208"
   },
   {
-    "payload": "' OR 70=70 --",
-    "gpt_tag": "This payload is an SQL injection (SQLi) attack. It manipulates the SQL query to always evaluate the condition as true. \n\n**Risk Level**: High",
-    "timestamp": "2025-03-30T12:48:33.746629"
+    "payload": "<script>alert(173)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850213"
   },
   {
-    "payload": "; cat /etc/passwd #39",
-    "gpt_tag": "This payload is attempting a Local File Inclusion (LFI) attack by trying to read the contents of the `/etc/passwd` file on the target system. \n\nRisk Level: Medium",
-    "timestamp": "2025-03-30T12:48:34.768271"
+    "payload": "' OR 12=12 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850218"
   },
   {
-    "payload": "; cat /etc/passwd #145",
-    "gpt_tag": "This payload is attempting to perform a Local File Inclusion (LFI) attack. It is trying to read the contents of the `/etc/passwd` file.  \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:48:35.692278"
+    "payload": "' OR 74=74 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850223"
   },
   {
-    "payload": "' OR 49=49 --",
-    "gpt_tag": "This payload is a SQL injection (SQLi) attack. It attempts to bypass authentication by injecting a condition that is always true, which can be used to manipulate the SQL query.\n\nRisk level: Medium",
-    "timestamp": "2025-03-30T12:48:36.610202"
+    "payload": "' OR 198=198 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850228"
   },
   {
-    "payload": "' OR 60=60 --",
-    "gpt_tag": "This payload is an SQL Injection (SQLi) attack. It attempts to bypass authentication by making the condition '60=60' always true, thus allowing unauthorized access to the system. \n\nRisk Level: High",
-    "timestamp": "2025-03-30T12:48:37.500073"
+    "payload": "../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850233"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850238"
+  },
+  {
+    "payload": "; cat /etc/passwd #132",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850242"
+  },
+  {
+    "payload": "; cat /etc/passwd #62",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850255"
+  },
+  {
+    "payload": "<script>alert(101)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850260"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850265"
+  },
+  {
+    "payload": "' OR 170=170 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850270"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850275"
+  },
+  {
+    "payload": "; cat /etc/passwd #177",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850280"
+  },
+  {
+    "payload": "; cat /etc/passwd #8",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850291"
+  },
+  {
+    "payload": "; cat /etc/passwd #63",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850302"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850315"
+  },
+  {
+    "payload": "; cat /etc/passwd #144",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850321"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850326"
+  },
+  {
+    "payload": "<script>alert(39)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850331"
+  },
+  {
+    "payload": "; cat /etc/passwd #165",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850336"
+  },
+  {
+    "payload": "' OR 186=186 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850344"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850354"
+  },
+  {
+    "payload": "' OR 55=55 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850360"
+  },
+  {
+    "payload": "' OR 144=144 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850365"
+  },
+  {
+    "payload": "<script>alert(62)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850370"
+  },
+  {
+    "payload": "<script>alert(4)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850376"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850386"
+  },
+  {
+    "payload": "; cat /etc/passwd #20",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850395"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850400"
+  },
+  {
+    "payload": "<script>alert(200)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850405"
+  },
+  {
+    "payload": "<script>alert(126)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850410"
+  },
+  {
+    "payload": "; cat /etc/passwd #27",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850415"
+  },
+  {
+    "payload": "<script>alert(28)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850424"
+  },
+  {
+    "payload": "<script>alert(16)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850432"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850437"
+  },
+  {
+    "payload": "; cat /etc/passwd #91",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850442"
+  },
+  {
+    "payload": "; cat /etc/passwd #30",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850447"
+  },
+  {
+    "payload": "; cat /etc/passwd #60",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850452"
+  },
+  {
+    "payload": "' OR 100=100 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850457"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850466"
+  },
+  {
+    "payload": "<script>alert(20)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850475"
+  },
+  {
+    "payload": "' OR 135=135 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850481"
+  },
+  {
+    "payload": "<script>alert(79)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850486"
+  },
+  {
+    "payload": "<script>alert(193)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850493"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850498"
+  },
+  {
+    "payload": "<script>alert(190)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850503"
+  },
+  {
+    "payload": "; cat /etc/passwd #130",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850508"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850513"
+  },
+  {
+    "payload": "<script>alert(38)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850519"
+  },
+  {
+    "payload": "' OR 112=112 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850530"
+  },
+  {
+    "payload": "; cat /etc/passwd #117",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850538"
+  },
+  {
+    "payload": "../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../../etc/passwd",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850543"
+  },
+  {
+    "payload": "; cat /etc/passwd #114",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850548"
+  },
+  {
+    "payload": "; cat /etc/passwd #69",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850553"
+  },
+  {
+    "payload": "' OR 25=25 --",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850560"
+  },
+  {
+    "payload": "<script>alert(182)</script>",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850570"
+  },
+  {
+    "payload": "; cat /etc/passwd #103",
+    "gpt_tag": "ERROR: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+    "timestamp": "2025-03-30T14:59:59.850580"
   }
 ]
