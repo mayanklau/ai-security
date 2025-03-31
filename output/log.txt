@@ -16,3 +16,8 @@
 [2025-03-31 15:43:27] Tag-only mode...
 [2025-03-31 15:44:59] Tag-only complete.
 [2025-03-31 16:58:06] Running full scan for: http://demo.testfire.net
+[2025-03-31 17:12:12] Generated 200 payloads
+[2025-03-31 17:12:12] Tagging first 100 payloads using GPT...
+[2025-03-31 17:14:01] Tagged payloads saved
+[2025-03-31 17:15:38] Testing payloads against: demo.testfire.net
+[2025-03-31 17:15:38] Testing results saved to output/
