@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://i.imgur.com/GY0RAfW.png" alt="VulnScout Banner" />
-</p>
 
 # ⚔️ VulnScout – The Agentic Security Toolkit
 
