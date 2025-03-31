@@ -92,7 +92,4 @@ Disclaimer
 This tool is for educational and ethical testing purposes only. Use only on systems you own or have explicit permission to test.
 
 
----
-
-Let me know if you'd like me to generate this as README.md so you can commit it directly.
 
