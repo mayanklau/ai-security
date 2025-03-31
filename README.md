@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://i.imgur.com/JD7UvTo.png" alt="VulnScout Banner" />
+</p>
+
 # ⚔️ VulnScout – The Agentic Security Toolkit
 
 **Scouting for vulnerabilities in your web applications. Powered by AI + Classic Security Tools.**  
