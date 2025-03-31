@@ -1,175 +1,102 @@
-VulnScout – Scouting for vulnerabilities in your web applications.
+# ⚔️ VulnScout – The Agentic Security Toolkit
 
-Agentic Security Toolkit
-
-The Agentic Security Toolkit is a comprehensive, script-driven utility designed to help learners, researchers, and ethical hackers generate, test, and analyze common web-based attack payloads. It helps simulate how injection payloads interact with target web applications and generates detailed risk reports. The toolkit also integrates GitHub for easy versioning, sharing, and pushing results to remote repositories.
-
-This tool is specifically built for educational and ethical hacking purposes, allowing users to perform penetration testing, CTF challenges, and security analysis on websites. The functionality is modular, allowing users to easily extend or integrate it into their existing security toolchain.
-
+**Scouting for vulnerabilities in your web applications. Powered by AI + Classic Security Tools.**  
+A modular, script-driven toolkit for ethical hackers, researchers, and red teamers. Built for **Termux**, integrated with **GitHub**, and designed to be extended.
 
 ---
 
-Features
+## 🚀 Features
 
-Payload Generator
-
-Generates a comprehensive set of payloads across:
-
-Cross-Site Scripting (XSS)
-
-SQL Injection (SQLi)
-
-Local File Inclusion (LFI)
-
-Remote Command Execution (RCE)
-
-
-
-Payload Tester
-
-Automatically sends generated payloads to a specified target URL and checks for signs of reflection or exposure. It provides basic testing for vulnerabilities like XSS, SQLi, and RCE.
-
-
-Risk Report Generation
-
-Generates a detailed risk report in Markdown format summarizing the results of the scan. The report includes risk levels for each payload and an overview of the scan results.
-
-
-Exportable Results
-
-Stores all payloads and findings in structured text, CSV, or JSON formats for easy review, reporting, and extension.
-
-
-Secure Key Management
-
-Reads configuration and API keys securely via a .env file using python-dotenv. This ensures that no sensitive data is hardcoded into the scripts.
-
-
-GitHub Integration
-
-Pushes scan results and payload data to a GitHub repository for versioning, backup, and sharing. The github_push.py script automates this process.
-
-
-Modular Design
-
-The toolkit consists of simple Python scripts (e.g., generate_payloads.py, test_payloads.py) that are easy to extend or integrate into larger tools or pipelines.
-
-
-Background Scheduling
-
-Automatically runs scans on a scheduled basis using the background_scheduler.py script. You can set a custom scan interval (e.g., every 6 hours) without requiring manual intervention.
-
-
-Manual Tagging
-
-Allows manual tagging of payloads based on user input. Users can tag payloads as "XSS", "SQLi", "RCE", or "Unknown" and the tags will be saved and reported.
-
-
-Logs and Reports
-
-Generates logs and detailed reports in CSV and JSON formats, which are essential for auditing, reviewing, and tracking test results.
-
-
+### ✅ Agentic AI Modules
+- **Payload Generator** for:
+  - XSS
+  - SQLi
+  - LFI
+  - RCE
+- **Payload Tester**: Automatically tests target URL for reflected or injectable vulnerabilities.
+- **Manual Tagging**: Tag payloads as XSS, SQLi, RCE, or Unknown.
+- **Risk Report Generator**: Markdown-based reports with risk summaries.
+- **Scheduler**: Run background scans every few hours (via `background_scheduler.py`).
+- **GitHub Integration**: Push payloads, results, and reports to your repo automatically.
+- **.env Config**: Secure config with OpenAI API key and target URL.
 
 ---
 
-Use Cases
-
-Quick testing of web input fields and reflection behavior.
-
-Cybersecurity education and experimentation.
-
-CTF challenge development.
-
-Penetration testing payload generation starter kit.
-
-Regular scheduled scans with automated risk reporting.
-
-GitHub integration for version control of scan data and reports.
-
-
+### 🔧 Integrated Security Tools
+| Tool        | Purpose                  |
+|-------------|---------------------------|
+| `nmap`      | Network scanning          |
+| `sqlmap`    | SQL Injection detection   |
+| `whatweb`   | Web tech fingerprinting   |
+| `xsstrike`  | AI-powered XSS scanner    |
+| `wfuzz`     | Parameter fuzzing         |
+| `dirb`      | Directory brute-force     |
+| `nikto`     | Web vulnerability scanner |
+| `amass`     | Subdomain enumeration     |
 
 ---
 
-Structure
+## 🗂️ Folder Structure
 
-├── generate_payloads.py        # Creates categorized attack payloads
-├── test_payloads.py            # Sends payloads to target and logs reflections
-├── generate_report.py          # Generates a risk report in Markdown format
-├── github_push.py              # Pushes data to GitHub
-├── background_scheduler.py     # Runs scans automatically on a schedule
-├── payloads.txt                # Stores generated payloads
-├── results.txt                 # Stores test findings in plain text format
-├── results.csv                 # Stores test findings in CSV format
-├── results.json                # Stores test findings in JSON format
-├── .env                        # Secure local configuration (not tracked by Git)
-├── README.md                   # This documentation
-├── projects/                   # Stores project-specific folders and scan results
-└── queue/                      # Contains queued scanning jobs for background processing
-
+ai-security/ ├── menu.py                   # CLI launcher ├── push_report.sh            # GitHub push automation ├── reports/ │   ├── tool_runner.py        # Main scanner: Nmap, Sqlmap, XSStrike, etc. │   └── report_*.md           # Generated reports ├── generate_payloads.py      # Agentic payload generator ├── test_payloads.py          # Payload testing module ├── manual_tagging.py         # Optional payload labeler ├── generate_report.py        # Risk report creator ├── github_push.py            # GitHub sync script ├── background_scheduler.py   # Runs scans on intervals ├── .env                      # Secrets + config (excluded from Git) ├── output/ │   ├── payloads_tagged.csv/.json │   ├── results.csv/.json │   └── log.txt
 
 ---
 
-Getting Started
+## ⚙️ Getting Started
 
-1. Install Dependencies:
-
-Install the required dependencies using pip:
-
+### 1. Install Requirements
+```bash
 pip install -r requirements.txt
+pkg install git python curl nmap perl dirb -y
 
-2. Configure the .env File:
-
-Add your target URL and API keys (if applicable) to the .env file. Example:
+2. Setup .env file
 
 TARGET_URL=http://example.com
-OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_KEY=sk-xxxxxxxxxxx
 
-3. Run the Toolkit:
-
-Generate Payloads:
+3. Run Core Modules
 
 python generate_payloads.py
-
-Test Payloads:
-
 python test_payloads.py
-
-Generate the Risk Report:
-
 python generate_report.py
 
-Automatically Push Results to GitHub:
+4. Push to GitHub
 
 python github_push.py
 
-Schedule Scans Automatically:
-
-Run the scheduled scan script (configurable interval):
+5. Schedule Background Scans
 
 python background_scheduler.py
 
-Tag Payloads Manually:
 
-If you want to tag payloads manually, use the following:
+---
 
-python manual_tagging.py
+✨ Use Cases
+
+Fast payload generation and testing for CTFs
+
+Scheduled recon on authorized targets
+
+Learn web security hands-on with integrated tools
+
+Maintain a GitHub-based trail of risk findings
+
+Automate red team prep via Termux
+
 
 
 ---
 
-Additional Functionality
+⚠️ Disclaimer
 
-Running in Background: If you want scans to run automatically at regular intervals, you can use the background scheduler to trigger scans periodically.
-
-Logs and Results Export: All results from tests are saved in the results.txt, results.csv, and results.json files. These can be easily shared or stored for later reference.
-
+This tool is intended only for educational and authorized security testing.
+Never scan or attack systems you don’t have permission to test.
+Unauthorized access is illegal and unethical.
 
 
 ---
 
-Disclaimer
+⭐ Credits
 
-This tool is intended for educational and ethical testing purposes only. Use it only on systems you own or have explicit permission to test. Unauthorized access to computer systems is illegal.
-
+Created by @mayanklau — Powered by OpenAI + Termux + classic infosec tools.
 
