@@ -1,0 +1,402 @@
+[
+  {
+    "payload": "<script>alert(1)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(2)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(3)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(4)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(5)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(6)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(7)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(8)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(9)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(10)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(11)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(12)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(13)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(14)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(15)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(16)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(17)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(18)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(19)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(20)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(21)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(22)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(23)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(24)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(25)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(26)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(27)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(28)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(29)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(30)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(31)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(32)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(33)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(34)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(35)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(36)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(37)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(38)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(39)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(40)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(41)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(42)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(43)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(44)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(45)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(46)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(47)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(48)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(49)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "<script>alert(50)</script>",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 1=1 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 2=2 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 3=3 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 4=4 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 5=5 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 6=6 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 7=7 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 8=8 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 9=9 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 10=10 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 11=11 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 12=12 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 13=13 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 14=14 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 15=15 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 16=16 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 17=17 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 18=18 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 19=19 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 20=20 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 21=21 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 22=22 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 23=23 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 24=24 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 25=25 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 26=26 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 27=27 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 28=28 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 29=29 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 30=30 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 31=31 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 32=32 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 33=33 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 34=34 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 35=35 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 36=36 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 37=37 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 38=38 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 39=39 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 40=40 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 41=41 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 42=42 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 43=43 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 44=44 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 45=45 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 46=46 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 47=47 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 48=48 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 49=49 --",
+    "reflected": false
+  },
+  {
+    "payload": "' OR 50=50 --",
+    "reflected": false
+  }
+]

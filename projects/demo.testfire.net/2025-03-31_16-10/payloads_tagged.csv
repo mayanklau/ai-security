@@ -1,0 +1,159 @@
+payload,tag,time
+<script>alert(1)</script>,"XSS, Medium",2025-03-31T16:10:18.242085
+<script>alert(2)</script>,This payload is a XSS (Cross-Site Scripting) attack. The risk level is determined as Low.,2025-03-31T16:10:19.130529
+<script>alert(3)</script>,This payload is an XSS (Cross-Site Scripting) attack. It poses a Medium risk level as it can potentially manipulate the behavior of the website and execute unauthorized actions on behalf of the user.,2025-03-31T16:10:20.356375
+<script>alert(4)</script>,This payload is classified as XSS (Cross-Site Scripting) with a risk level of Low.,2025-03-31T16:10:21.177899
+<script>alert(5)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:21.850209
+<script>alert(6)</script>,"XSS (Cross-Site Scripting)
+Risk level: Low",2025-03-31T16:10:22.610197
+<script>alert(7)</script>,This payload is an XSS (Cross-Site Scripting) attack. Its risk level is classified as Low.,2025-03-31T16:10:23.529751
+<script>alert(8)</script>,This payload is classified as XSS (Cross-Site Scripting) and has a Medium risk level.,2025-03-31T16:10:24.450861
+<script>alert(9)</script>,This payload is tagged as XSS (Cross-Site Scripting) and its risk level is Low.,2025-03-31T16:10:25.169541
+<script>alert(10)</script>,This payload is classified as XSS (Cross-Site Scripting) and the risk level is Low.,2025-03-31T16:10:26.104988
+<script>alert(11)</script>,This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Medium.,2025-03-31T16:10:26.807562
+<script>alert(12)</script>,This payload is identified as XSS (Cross-Site Scripting) and its risk level is Low.,2025-03-31T16:10:27.525834
+<script>alert(13)</script>,"This payload is classified as XSS (Cross-Site Scripting) and is rated as Medium risk. It executes a simple alert popup, which can be used by attackers to potentially steal session cookies, redirect users to malicious websites, or perform other malicious actions on the affected site.",2025-03-31T16:10:28.650041
+<script>alert(14)</script>,"Tag: XSS
+Risk level: Low",2025-03-31T16:10:29.366295
+<script>alert(15)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:30.186459
+<script>alert(16)</script>,"Type: XSS
+Risk level: Low",2025-03-31T16:10:30.801924
+<script>alert(17)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:31.516848
+<script>alert(18)</script>,This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low. It is a simple alert popup script that is not malicious in nature but demonstrates the ability to execute arbitrary scripts on a vulnerable website.,2025-03-31T16:10:33.258999
+<script>alert(19)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:33.975840
+<script>alert(20)</script>,This payload is tagged as XSS (Cross-Site Scripting) and it poses a Low risk as it displays a harmless alert box with the number 20.,2025-03-31T16:10:34.896325
+<script>alert(21)</script>,This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.,2025-03-31T16:10:35.716217
+<script>alert(22)</script>,This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.,2025-03-31T16:10:36.432078
+<script>alert(23)</script>,"This payload is a XSS (Cross-Site Scripting) attack. It allows the injection of malicious scripts into a website, which can lead to stealing sensitive information, session hijacking, defacement, and more. 
+
+Risk level: High",2025-03-31T16:10:37.667918
+<script>alert(24)</script>,This payload is tagged as XSS (Cross-Site Scripting) and its risk level is Low.,2025-03-31T16:10:38.584296
+<script>alert(25)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:39.402397
+<script>alert(26)</script>,"Tag: XSS
+Risk level: Low",2025-03-31T16:10:40.227657
+<script>alert(27)</script>,"XSS (Cross-Site Scripting)
+Risk level: Low",2025-03-31T16:10:40.940845
+<script>alert(28)</script>,"XSS (Cross-Site Scripting)
+Risk level: Low",2025-03-31T16:10:41.760310
+<script>alert(29)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:42.631540
+<script>alert(30)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:43.394545
+<script>alert(31)</script>,This payload is classified as XSS (Cross-Site Scripting) with a risk level of Low.,2025-03-31T16:10:44.113213
+<script>alert(32)</script>,This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.,2025-03-31T16:10:44.932569
+<script>alert(33)</script>,This payload is classified as XSS (Cross-Site Scripting) with a risk level of Low.,2025-03-31T16:10:46.366170
+<script>alert(34)</script>,"This payload is an XSS payload. It injects a malicious script that triggers an alert message when executed. 
+
+Risk Level: Medium",2025-03-31T16:10:47.184347
+<script>alert(35)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:48.106040
+<script>alert(36)</script>,This payload is tagged as XSS (Cross-Site Scripting) and its risk level is Low.,2025-03-31T16:10:49.233887
+<script>alert(37)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:49.956185
+<script>alert(38)</script>,"XSS (Cross-Site Scripting)
+Risk Level: Low",2025-03-31T16:10:50.668000
+<script>alert(39)</script>,XSS - Medium,2025-03-31T16:10:51.895811
+<script>alert(40)</script>,This payload is a XSS (Cross-Site Scripting) attack. It injects a script that displays an alert box with the number 40 when executed. The risk level of this payload is Low.,2025-03-31T16:10:52.922549
+<script>alert(41)</script>,This payload is tagged as XSS (Cross-Site Scripting) and its risk level is Low.,2025-03-31T16:10:55.072200
+<script>alert(42)</script>,This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.,2025-03-31T16:10:55.786849
+<script>alert(43)</script>,This payload is an XSS (Cross-Site Scripting) attack. Its risk level is Medium.,2025-03-31T16:10:56.502623
+<script>alert(44)</script>,This payload is classified as XSS (Cross-Site Scripting) with a risk level of Low.,2025-03-31T16:10:57.324301
+<script>alert(45)</script>,"Risk Level: Low
+This payload is a simple XSS payload that attempts to execute an alert box with the message ""45"". While XSS vulnerabilities can potentially be severe, this particular payload does not seem to have any harmful intent and thus poses a low risk.",2025-03-31T16:10:58.597186
+<script>alert(46)</script>,This payload is tagged as XSS (Cross-site Scripting) with a risk level of Low.,2025-03-31T16:10:59.371290
+<script>alert(47)</script>,This payload is classified as XSS (Cross-Site Scripting) with a risk level of Medium.,2025-03-31T16:11:00.190258
+<script>alert(48)</script>,This payload is an XSS (Cross-Site Scripting) attack. It injects a script that will create an alert box displaying the number 48. The risk level is low.,2025-03-31T16:11:01.215513
+<script>alert(49)</script>,"This payload is classified as XSS (Cross-Site Scripting) and has a Medium risk level. It is injecting a script that will display an alert box with the message ""49"" when interpreted by the browser. While it may not have severe consequences on its own, XSS vulnerabilities can be exploited for more harmful purposes, such as session hijacking or defacement of the website.",2025-03-31T16:11:02.700952
+<script>alert(50)</script>,"Tag: XSS
+Risk level: Low",2025-03-31T16:11:03.468683
+' OR 1=1 --,"Tag: SQLi
+Risk Level: High",2025-03-31T16:11:04.500435
+' OR 2=2 --,This is an SQL injection payload with a risk level of High.,2025-03-31T16:11:06.045504
+' OR 3=3 --,"This payload is an example of an SQL injection (SQLi) attack. It is trying to manipulate a SQL query to always evaluate the condition `3=3`, which will always return true, allowing the attacker to potentially access unauthorized data or perform other malicious actions on the database.
+
+Risk Level: High",2025-03-31T16:11:07.256183
+' OR 4=4 --,"This payload is an example of a SQL injection (SQLi) attack. It attempts to manipulate a SQL query to return all rows by making the condition '4=4' always true, and commenting out the rest of the query with '--'.
+
+Risk level: High",2025-03-31T16:11:08.791819
+' OR 5=5 --,"This payload is an example of a SQL injection (SQLi) attack. It attempts to bypass authentication by injecting a condition that is always true ('5=5') and commenting out the rest of the query. 
+
+Risk level: High",2025-03-31T16:11:09.866542
+' OR 6=6 --,This payload is an SQL injection (SQLi) attempt. The risk level is determined to be Medium as it can potentially access sensitive data or manipulate the database.,2025-03-31T16:11:10.738088
+' OR 7=7 --,"This payload is an SQL injection (SQLi) attempt. It is trying to bypass authentication by injecting a condition that always evaluates to true, in this case '7=7'. The double dash '--' is used to comment out the rest of the query. 
+
+Risk Level: High",2025-03-31T16:11:12.059430
+' OR 8=8 --,"This payload is a classic SQL injection (SQLi) attack. It attempts to bypass authentication by injecting a condition that always evaluates to true, in this case '8=8'. The double dash '--' is a comment in SQL that tells the database to ignore everything after it.
+
+Risk Level: High",2025-03-31T16:11:13.201126
+' OR 9=9 --,"This payload is an SQL injection (SQLi) attack. The payload tries to comment out the rest of the SQL query by adding a double hyphen (--), and the condition 9=9 will always be true, which can potentially alter the logic of the original query.
+
+Risk Level: High",2025-03-31T16:11:14.389105
+' OR 10=10 --,"This payload is an SQL injection (SQLi) attempt. It appears to be a simple boolean-based SQL injection, trying to make the query always true by using the condition 10=10. This payload has a low risk level because it is a basic attempt and may not provide any sensitive information.",2025-03-31T16:11:15.649447
+' OR 11=11 --,This payload is an example of SQL injection (SQLi) and it has a risk level of High.,2025-03-31T16:11:16.398615
+' OR 12=12 --,This payload is for SQL injection (SQLi) and it has a Low risk level.,2025-03-31T16:11:17.084961
+' OR 13=13 --,This payload is for SQL injection (SQLi) and it has a risk level of Low.,2025-03-31T16:11:17.823984
+' OR 14=14 --,This payload is an SQL injection (SQLi) attack. The risk level of this payload is High as it attempts to bypass authentication by making the SQL query always evaluate to true.,2025-03-31T16:11:18.826020
+' OR 15=15 --,This payload is for SQL injection (SQLi) and the risk level is Low.,2025-03-31T16:11:19.893914
+' OR 16=16 --,"This payload is an SQL injection (SQLi) attempt. It aims to manipulate the SQL query by making the condition '16=16' always true, which could potentially lead to unauthorized access to the database or data leakage.
+
+Risk Level: High",2025-03-31T16:11:21.078340
+' OR 17=17 --,This payload is for SQL injection (SQLi) and its risk level is Low.,2025-03-31T16:11:22.000545
+' OR 18=18 --,"Tag: SQLi
+Risk Level: Low",2025-03-31T16:11:27.529526
+' OR 19=19 --,This payload is an SQL injection (SQLi) attempt. The risk level is Medium.,2025-03-31T16:11:28.452222
+' OR 20=20 --,"Tag: SQLi
+Risk level: Low",2025-03-31T16:11:29.065506
+' OR 21=21 --,"This payload is an example of a SQL injection (SQLi) attack. It attempts to manipulate the SQL query to always return true by injecting a condition that is always true (21=21). 
+
+Risk Level: High",2025-03-31T16:11:30.296330
+' OR 22=22 --,"This payload is a classic example of a SQL injection (SQLi) attack. It attempts to bypass authentication by injecting an OR statement that will always evaluate to true, allowing an attacker to access sensitive data or perform unauthorized actions on the database. 
+
+Risk level: High",2025-03-31T16:11:31.528992
+' OR 23=23 --,"Type: SQLi
+Risk level: Low",2025-03-31T16:11:32.221469
+' OR 24=24 --,This payload is an SQL injection (SQLi) attack. The risk level is Low.,2025-03-31T16:11:33.187146
+' OR 25=25 --,This payload is an SQL injection (SQLi) attack. The risk level is High.,2025-03-31T16:11:33.922255
+' OR 26=26 --,"This payload is a SQL injection (SQLi) payload. It aims to bypass the authentication mechanism by injecting code into the SQL query. In this case, the payload is attempting to make the query always true by injecting the condition `26=26`.
+
+Risk level: High",2025-03-31T16:11:35.313533
+' OR 27=27 --,"This payload is an example of an SQL injection (SQLi) attack. It attempts to bypass authentication by making the condition '27=27' always evaluate to true, effectively allowing the attacker to login without a valid username and password. 
+
+Risk Level: Medium",2025-03-31T16:11:36.838515
+' OR 28=28 --,"This payload is an SQL injection (SQLi) attempt. It tries to bypass authentication by making the SQL query always return true with the condition `28=28`. 
+
+Risk Level: High",2025-03-31T16:11:37.926216
+' OR 29=29 --,"This payload is an SQL injection (SQLi) attack. The risk level is High as it can potentially manipulate the SQL query to access, modify, or delete data in the database.",2025-03-31T16:11:38.927120
+' OR 30=30 --,"This payload is an SQL injection (SQLi) attack. The risk level is High, as it can potentially lead to unauthorized access to the database and manipulation of data.",2025-03-31T16:11:40.332420
+' OR 31=31 --,This payload is an example of SQL injection (SQLi) and its risk level is High.,2025-03-31T16:11:41.159953
+' OR 32=32 --,This payload is an SQL injection (SQLi) attack. The risk level is Low as it is a simple payload that is unlikely to cause harm.,2025-03-31T16:11:42.005041
+' OR 33=33 --,This payload is classified as SQLi (SQL Injection) and its risk level is Medium.,2025-03-31T16:11:42.896572
+' OR 34=34 --,This payload is an SQL injection (SQLi) attack. The risk level is High as it can potentially manipulate the SQL query to perform unauthorized actions on the database.,2025-03-31T16:11:44.531955
+' OR 35=35 --,This payload is an SQL injection (SQLi) attempt with a risk level of Low.,2025-03-31T16:11:45.272829
+' OR 36=36 --,This payload is an SQL injection (SQLi) attack. The risk level is High as it can manipulate the SQL query to execute arbitrary commands on the database.,2025-03-31T16:11:46.118634
+' OR 37=37 --,This payload is an SQL injection (SQLi) payload and its risk level is High.,2025-03-31T16:11:47.396536
+' OR 38=38 --,"This payload is an SQL Injection (SQLi) payload. It attempts to inject the condition ' OR 38=38 -- into a SQL query, which will always evaluate to true, thus bypassing authentication or allowing access to unauthorized data.
+
+Risk Level: High",2025-03-31T16:11:48.830681
+' OR 39=39 --,This payload is an SQL injection (SQLi) payload. The risk level is considered as Low.,2025-03-31T16:11:49.551585
+' OR 40=40 --,"Tag: SQLi
+Risk level: Low",2025-03-31T16:11:50.208621
+' OR 41=41 --,This payload is SQL injection (SQLi) and its risk level is Low.,2025-03-31T16:11:51.187015
+' OR 42=42 --,This payload is an SQL injection (SQLi) payload. The risk level of this payload is Low.,2025-03-31T16:11:52.129913
+' OR 43=43 --,"This payload is an SQL injection (SQLi) attack. It attempts to bypass authentication by injecting a condition that is always true (43=43). 
+
+Risk Level: High",2025-03-31T16:11:53.131788
+' OR 44=44 --,This payload is SQL Injection (SQLi) and its risk level is High.,2025-03-31T16:11:53.850800
+' OR 45=45 --,"Tag: SQLi
+Risk level: Low",2025-03-31T16:11:54.565704
+' OR 46=46 --,This payload is a SQL injection (SQLi) attack. The risk level is considered Low as it is a basic payload that is unlikely to cause harm since it simply checks if 46 is equal to 46 and comments out the rest of the query.,2025-03-31T16:11:56.202892
+' OR 47=47 --,"This payload is an SQL Injection (SQLi) payload. It is attempting to comment out the rest of the SQL query by using the double dash (--), and then forcing the condition 47=47 to be true which will result in the query returning all records from the database table. 
+
+Risk Level: High",2025-03-31T16:11:57.432446
+' OR 48=48 --,This payload is an SQL injection (SQLi) attack. It has a Low risk level as it is a basic example and may not necessarily cause harm depending on where it is injected.,2025-03-31T16:11:58.353575
+' OR 49=49 --,"This payload is SQL injection (SQLi). It is attempting to bypass authentication by making the condition '49=49' always true. The risk level for this payload is Low as it does not appear to be tailored for a specific injection point, and it may not be able to extract or modify sensitive data.",2025-03-31T16:11:59.684557
+' OR 50=50 --,"This payload is an example of an SQL injection (SQLi) attack. It tries to always make the condition '50=50' true, which will most likely result in a successful SQL injection. The risk level of this payload is High as it can potentially manipulate the SQL query and access, modify, or delete sensitive data from the database.",2025-03-31T16:12:00.912419

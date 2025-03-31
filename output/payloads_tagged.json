@@ -1,0 +1,502 @@
+[
+  {
+    "payload": "<script>alert(1)</script>",
+    "tag": "This payload is an XSS (Cross-Site Scripting) attack. The risk level is considered as Low because it is a basic alert box and does not involve any malicious actions beyond showing a pop-up.",
+    "time": "2025-03-31T15:08:59.416227"
+  },
+  {
+    "payload": "<script>alert(2)</script>",
+    "tag": "Type: XSS\nRisk Level: Low",
+    "time": "2025-03-31T15:09:00.002934"
+  },
+  {
+    "payload": "<script>alert(3)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
+    "time": "2025-03-31T15:09:00.705342"
+  },
+  {
+    "payload": "<script>alert(4)</script>",
+    "tag": "Tag: XSS\nRisk Level: Low",
+    "time": "2025-03-31T15:09:02.037360"
+  },
+  {
+    "payload": "<script>alert(5)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Medium.",
+    "time": "2025-03-31T15:09:02.958693"
+  },
+  {
+    "payload": "<script>alert(6)</script>",
+    "tag": "This payload is an XSS payload. It is injecting a script tag to display an alert box with the number 6. The risk level of this payload is Low.",
+    "time": "2025-03-31T15:09:04.186480"
+  },
+  {
+    "payload": "<script>alert(7)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) and its risk level is Low.",
+    "time": "2025-03-31T15:09:05.317492"
+  },
+  {
+    "payload": "<script>alert(8)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) and has a risk level of Low, as it is just an alert box being displayed on the page.",
+    "time": "2025-03-31T15:09:06.237876"
+  },
+  {
+    "payload": "<script>alert(9)</script>",
+    "tag": "Tag: XSS  \nRisk level: Low",
+    "time": "2025-03-31T15:09:06.953077"
+  },
+  {
+    "payload": "<script>alert(10)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: High",
+    "time": "2025-03-31T15:09:07.774142"
+  },
+  {
+    "payload": "<script>alert(11)</script>",
+    "tag": "This payload is classified as XSS (Cross-Site Scripting) with a risk level of Low.",
+    "time": "2025-03-31T15:09:08.796244"
+  },
+  {
+    "payload": "<script>alert(12)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
+    "time": "2025-03-31T15:09:09.511006"
+  },
+  {
+    "payload": "<script>alert(13)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
+    "time": "2025-03-31T15:09:10.436876"
+  },
+  {
+    "payload": "<script>alert(14)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
+    "time": "2025-03-31T15:09:11.254247"
+  },
+  {
+    "payload": "<script>alert(15)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.",
+    "time": "2025-03-31T15:09:12.280238"
+  },
+  {
+    "payload": "<script>alert(16)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low. It simply displays an alert message containing the number 16 and does not demonstrate any malicious behavior.",
+    "time": "2025-03-31T15:09:18.628657"
+  },
+  {
+    "payload": "<script>alert(17)</script>",
+    "tag": "This payload is XSS (Cross-Site Scripting) and its risk level is Low.",
+    "time": "2025-03-31T15:09:19.549215"
+  },
+  {
+    "payload": "<script>alert(18)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.",
+    "time": "2025-03-31T15:09:20.472331"
+  },
+  {
+    "payload": "<script>alert(19)</script>",
+    "tag": "Tag: XSS\nRisk level: Low",
+    "time": "2025-03-31T15:09:21.186164"
+  },
+  {
+    "payload": "<script>alert(20)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
+    "time": "2025-03-31T15:09:22.106750"
+  },
+  {
+    "payload": "<script>alert(21)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Medium",
+    "time": "2025-03-31T15:09:22.928492"
+  },
+  {
+    "payload": "<script>alert(22)</script>",
+    "tag": "This payload is a Cross-Site Scripting (XSS) payload. \n\nRisk level: Low",
+    "time": "2025-03-31T15:09:23.747701"
+  },
+  {
+    "payload": "<script>alert(23)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
+    "time": "2025-03-31T15:09:24.463339"
+  },
+  {
+    "payload": "<script>alert(24)</script>",
+    "tag": "This payload is an XSS (Cross-Site Scripting) attack. The risk level is Low as it only generates an alert with the number 24 and doesn't perform any malicious actions.",
+    "time": "2025-03-31T15:09:25.590556"
+  },
+  {
+    "payload": "<script>alert(25)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.",
+    "time": "2025-03-31T15:09:26.307931"
+  },
+  {
+    "payload": "<script>alert(26)</script>",
+    "tag": "This payload is a Cross-Site Scripting (XSS) attack. Its risk level is Low.",
+    "time": "2025-03-31T15:09:27.088136"
+  },
+  {
+    "payload": "<script>alert(27)</script>",
+    "tag": "Tag: XSS\nRisk level: Low",
+    "time": "2025-03-31T15:09:27.739658"
+  },
+  {
+    "payload": "<script>alert(28)</script>",
+    "tag": "Type: XSS\nRisk Level: Low",
+    "time": "2025-03-31T15:09:28.357667"
+  },
+  {
+    "payload": "<script>alert(29)</script>",
+    "tag": "This payload is classified as XSS (Cross-Site Scripting) and its risk level is Low.",
+    "time": "2025-03-31T15:09:29.377421"
+  },
+  {
+    "payload": "<script>alert(30)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
+    "time": "2025-03-31T15:09:30.196564"
+  },
+  {
+    "payload": "<script>alert(31)</script>",
+    "tag": "Tag: XSS\nRisk level: Low",
+    "time": "2025-03-31T15:09:30.830633"
+  },
+  {
+    "payload": "<script>alert(32)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) and its risk level is rated as Low. It is a simple alert XSS payload that pops up an alert box with the number 32. While XSS vulnerabilities can potentially be dangerous if used maliciously, this specific payload does not pose a significant threat.",
+    "time": "2025-03-31T15:09:32.145273"
+  },
+  {
+    "payload": "<script>alert(33)</script>",
+    "tag": "This payload is an XSS (Cross-Site Scripting) attack. Its risk level is Low.",
+    "time": "2025-03-31T15:09:32.962208"
+  },
+  {
+    "payload": "<script>alert(34)</script>",
+    "tag": "This payload is an XSS (Cross-Site Scripting) attack. The risk level is Low, as it only triggers an alert message but does not perform any further malicious actions.",
+    "time": "2025-03-31T15:09:34.087040"
+  },
+  {
+    "payload": "<script>alert(35)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
+    "time": "2025-03-31T15:09:34.805913"
+  },
+  {
+    "payload": "<script>alert(36)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk level: Low",
+    "time": "2025-03-31T15:09:35.627538"
+  },
+  {
+    "payload": "<script>alert(37)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Low",
+    "time": "2025-03-31T15:09:36.341830"
+  },
+  {
+    "payload": "<script>alert(38)</script>",
+    "tag": "Tag: XSS\nRisk level: Low",
+    "time": "2025-03-31T15:09:37.777973"
+  },
+  {
+    "payload": "<script>alert(39)</script>",
+    "tag": "This payload is an XSS (Cross-Site Scripting) attack. The risk level is Low as it only displays an alert message without performing any further malicious actions.",
+    "time": "2025-03-31T15:09:38.722386"
+  },
+  {
+    "payload": "<script>alert(40)</script>",
+    "tag": "XSS - Cross-Site Scripting\nRisk Level: Low",
+    "time": "2025-03-31T15:09:39.414931"
+  },
+  {
+    "payload": "<script>alert(41)</script>",
+    "tag": "Tag: XSS\nRisk level: Low",
+    "time": "2025-03-31T15:09:40.233375"
+  },
+  {
+    "payload": "<script>alert(42)</script>",
+    "tag": "XSS (Cross-Site Scripting)\nRisk Level: Medium",
+    "time": "2025-03-31T15:09:40.889210"
+  },
+  {
+    "payload": "<script>alert(43)</script>",
+    "tag": "This payload is classified as XSS (Cross-Site Scripting) and its risk level is Low. This payload will display an alert box with the number 43 when executed in a vulnerable web application.",
+    "time": "2025-03-31T15:09:42.383386"
+  },
+  {
+    "payload": "<script>alert(44)</script>",
+    "tag": "XSS (Cross-site scripting)\nRisk level: Low",
+    "time": "2025-03-31T15:09:43.108918"
+  },
+  {
+    "payload": "<script>alert(45)</script>",
+    "tag": "This payload is an XSS (Cross-Site Scripting) attack. XSS vulnerabilities allow attackers to inject malicious scripts into webpages viewed by others. In this case, the payload will display an alert box with the number 45 when the webpage is loaded by a victim.\n\nRisk level: Medium",
+    "time": "2025-03-31T15:09:44.431765"
+  },
+  {
+    "payload": "<script>alert(46)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Low.",
+    "time": "2025-03-31T15:09:45.251586"
+  },
+  {
+    "payload": "<script>alert(47)</script>",
+    "tag": "This payload is tagged as XSS (Cross-Site Scripting) with a risk level of Medium.",
+    "time": "2025-03-31T15:09:46.069812"
+  },
+  {
+    "payload": "<script>alert(48)</script>",
+    "tag": "This payload is classified as an XSS (Cross-Site Scripting) attack. \nRisk level: Medium",
+    "time": "2025-03-31T15:09:46.842314"
+  },
+  {
+    "payload": "<script>alert(49)</script>",
+    "tag": "Tag: XSS\nRisk level: Low",
+    "time": "2025-03-31T15:09:47.505437"
+  },
+  {
+    "payload": "<script>alert(50)</script>",
+    "tag": "Tag: XSS\nRisk level: Low",
+    "time": "2025-03-31T15:09:48.139598"
+  },
+  {
+    "payload": "' OR 1=1 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. It aims to manipulate the SQL query to always return true by injecting the statement `OR 1=1`. \n\nRisk level: High",
+    "time": "2025-03-31T15:09:50.167345"
+  },
+  {
+    "payload": "' OR 2=2 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. The risk level is High, as it can manipulate the SQL query to return unintended results or access unauthorized data from the database.",
+    "time": "2025-03-31T15:09:51.110167"
+  },
+  {
+    "payload": "' OR 3=3 --",
+    "tag": "This payload is an SQL injection (SQLi) attack and its risk level is High.",
+    "time": "2025-03-31T15:09:52.047987"
+  },
+  {
+    "payload": "' OR 4=4 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. The risk level is High as it can manipulate the query to return unintended data or to perform actions on the database.",
+    "time": "2025-03-31T15:09:52.933170"
+  },
+  {
+    "payload": "' OR 5=5 --",
+    "tag": "Tag: SQLi\nRisk level: High",
+    "time": "2025-03-31T15:09:53.749241"
+  },
+  {
+    "payload": "' OR 6=6 --",
+    "tag": "This payload is an SQL injection (SQLi) attempt. The risk level is High.",
+    "time": "2025-03-31T15:09:54.569740"
+  },
+  {
+    "payload": "' OR 7=7 --",
+    "tag": "This payload is a classic example of an SQL injection (SQLi) attack. By injecting ' OR 7=7 -- into a database query, the attacker is trying to make the statement always evaluate to true, allowing them to potentially access unauthorized data. \n\nRisk Level: High",
+    "time": "2025-03-31T15:09:55.796714"
+  },
+  {
+    "payload": "' OR 8=8 --",
+    "tag": "Tag: SQLi\nRisk Level: High",
+    "time": "2025-03-31T15:09:56.615218"
+  },
+  {
+    "payload": "' OR 9=9 --",
+    "tag": "Tag: SQLi\nRisk level: High",
+    "time": "2025-03-31T15:09:57.233029"
+  },
+  {
+    "payload": "' OR 10=10 --",
+    "tag": "This payload is an example of SQL injection (SQLi) attack. Its risk level is High as it can manipulate the logic of the SQL query to access unauthorized data from the database.",
+    "time": "2025-03-31T15:09:58.358362"
+  },
+  {
+    "payload": "' OR 11=11 --",
+    "tag": "This payload is targeting SQL injection (SQLi) vulnerability and the risk level is Low.",
+    "time": "2025-03-31T15:09:59.281596"
+  },
+  {
+    "payload": "' OR 12=12 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. Its risk level is Low because it does not target any specific data or action within the database.",
+    "time": "2025-03-31T15:10:00.304021"
+  },
+  {
+    "payload": "' OR 13=13 --",
+    "tag": "This payload is an example of a SQL injection (SQLi) attack. It is attempting to bypass authentication by injecting a condition that is always true (`13=13`). The presence of the `--` signifies the start of a comment in SQL, which can be used to comment out the rest of the query.\n\nRisk Level: High",
+    "time": "2025-03-31T15:10:02.195997"
+  },
+  {
+    "payload": "' OR 14=14 --",
+    "tag": "This payload is an example of an SQL injection (SQLi) attack. The risk level is Low as it is a basic payload that may not always be successful depending on the vulnerability and context.",
+    "time": "2025-03-31T15:10:03.275462"
+  },
+  {
+    "payload": "' OR 15=15 --",
+    "tag": "This payload is a SQL Injection (SQLi) payload. \nRisk Level: High",
+    "time": "2025-03-31T15:10:04.313471"
+  },
+  {
+    "payload": "' OR 16=16 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. Its risk level is considered Low.",
+    "time": "2025-03-31T15:10:05.037344"
+  },
+  {
+    "payload": "' OR 17=17 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. The risk level is High as it can potentially retrieve sensitive information from the database or modify data.",
+    "time": "2025-03-31T15:10:06.960342"
+  },
+  {
+    "payload": "' OR 18=18 --",
+    "tag": "This payload is an SQL injection (SQLi) payload. The risk level is Medium.",
+    "time": "2025-03-31T15:10:07.780800"
+  },
+  {
+    "payload": "' OR 19=19 --",
+    "tag": "This payload is an SQL injection (SQLi) attempt. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:08.907521"
+  },
+  {
+    "payload": "' OR 20=20 --",
+    "tag": "This payload is an example of SQL injection (SQLi) and is attempting to bypass authentication by always returning true with the condition 20=20. This is a classic example of a high-risk SQL injection payload.",
+    "time": "2025-03-31T15:10:10.082800"
+  },
+  {
+    "payload": "' OR 21=21 --",
+    "tag": "This payload is an SQL injection (SQLi) as it attempts to manipulate the SQL query to return all records by making the condition '21=21' always true. The risk level for this payload is Low as it is a basic injection attempt and may not lead to a successful attack in most cases.",
+    "time": "2025-03-31T15:10:11.195837"
+  },
+  {
+    "payload": "' OR 22=22 --",
+    "tag": "This payload is an example of SQL injection (SQLi) and its risk level is High.",
+    "time": "2025-03-31T15:10:11.954492"
+  },
+  {
+    "payload": "' OR 23=23 --",
+    "tag": "This payload is an SQL injection (SQLi) payload. The risk level is Low.",
+    "time": "2025-03-31T15:10:15.776681"
+  },
+  {
+    "payload": "' OR 24=24 --",
+    "tag": "This payload is a SQL injection (SQLi) attack. It attempts to comment out the rest of the SQL query and make the condition always true, which can potentially lead to unauthorized access to the database. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:16.868413"
+  },
+  {
+    "payload": "' OR 25=25 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. The risk level is High as it can be used to manipulate the SQL query to perform unauthorized actions on the database, potentially leading to data leakage or modification.",
+    "time": "2025-03-31T15:10:18.018543"
+  },
+  {
+    "payload": "' OR 26=26 --",
+    "tag": "This payload is a SQL injection (SQLi) attack. The risk level is Low as it is a simple payload that may not result in successful exploitation depending on the context in which it is injected.",
+    "time": "2025-03-31T15:10:19.557642"
+  },
+  {
+    "payload": "' OR 27=27 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. It attempts to bypass a login form by injecting SQL code that will always evaluate to true, allowing the attacker to log in without providing valid credentials. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:20.781779"
+  },
+  {
+    "payload": "' OR 28=28 --",
+    "tag": "This payload is an SQL injection (SQLi) attempt. It aims to bypass authentication or retrieve sensitive data by injecting a condition that always evaluates to true. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:21.674817"
+  },
+  {
+    "payload": "' OR 29=29 --",
+    "tag": "This payload is attempting a SQL injection attack by trying to make a SQL query always evaluate to true. \n- Type: SQLi (SQL Injection)\n- Risk level: High",
+    "time": "2025-03-31T15:10:22.625107"
+  },
+  {
+    "payload": "' OR 30=30 --",
+    "tag": "This payload is SQL injection (SQLi) and has a risk level of Low.",
+    "time": "2025-03-31T15:10:24.060819"
+  },
+  {
+    "payload": "' OR 31=31 --",
+    "tag": "This payload is an SQL injection (SQLi) attempt. It is attempting to make the SQL query return true by checking if 31 is equal to 31, which will always be true. \n\nRisk Level: Medium",
+    "time": "2025-03-31T15:10:25.188126"
+  },
+  {
+    "payload": "' OR 32=32 --",
+    "tag": "This payload is an example of a SQL injection (SQLi) attempt. It is attempting to inject a condition that will always evaluate to true in order to manipulate the logic of the SQL query.\n\nRisk level: Medium",
+    "time": "2025-03-31T15:10:26.417754"
+  },
+  {
+    "payload": "' OR 33=33 --",
+    "tag": "This payload is an SQL injection (SQLi) attempt. It is trying to bypass authentication by providing a condition that is always true ('33=33'). The double hyphen (--) at the end is used to comment out the rest of the SQL query. The risk level for this payload is High, as it can potentially manipulate the database query and access unauthorized data.",
+    "time": "2025-03-31T15:10:27.851866"
+  },
+  {
+    "payload": "' OR 34=34 --",
+    "tag": "This payload is an SQL injection (SQLi) payload. It is attempting to bypass authentication by injecting a condition that will always be true. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:28.771327"
+  },
+  {
+    "payload": "' OR 35=35 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. Its risk level is High.",
+    "time": "2025-03-31T15:10:29.693941"
+  },
+  {
+    "payload": "' OR 36=36 --",
+    "tag": "Tag: SQLi\nRisk level: Low",
+    "time": "2025-03-31T15:10:30.411713"
+  },
+  {
+    "payload": "' OR 37=37 --",
+    "tag": "This payload is an SQL injection (SQLi) attempt. It is trying to bypass authentication by making the SQL query always evaluate to true. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:33.275256"
+  },
+  {
+    "payload": "' OR 38=38 --",
+    "tag": "This payload is classified as SQLi (SQL Injection) and its risk level is Low.",
+    "time": "2025-03-31T15:10:34.098145"
+  },
+  {
+    "payload": "' OR 39=39 --",
+    "tag": "This payload is an SQL injection (SQLi) payload. It attempts to bypass authentication by adding a condition that always evaluates to true, in this case, 39=39. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:35.225520"
+  },
+  {
+    "payload": "' OR 40=40 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. The risk level for this payload is Low, as it is a basic and unlikely to cause significant damage on its own.",
+    "time": "2025-03-31T15:10:36.275411"
+  },
+  {
+    "payload": "' OR 41=41 --",
+    "tag": "This payload is an SQL injection (SQLi) attack. The risk level for this payload is Low.",
+    "time": "2025-03-31T15:10:37.067358"
+  },
+  {
+    "payload": "' OR 42=42 --",
+    "tag": "Tag: SQLi\nRisk level: Low",
+    "time": "2025-03-31T15:10:37.682301"
+  },
+  {
+    "payload": "' OR 43=43 --",
+    "tag": "Tag: SQLi\nRisk level: Low",
+    "time": "2025-03-31T15:10:39.960066"
+  },
+  {
+    "payload": "' OR 44=44 --",
+    "tag": "This payload is a SQL Injection (SQLi) payload. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:40.754821"
+  },
+  {
+    "payload": "' OR 45=45 --",
+    "tag": "This payload is identified as an SQL injection (SQLi) attack. Its risk level is high as it can potentially manipulate the SQL query to bypass authentication, retrieve sensitive data, modify the database, or perform other malicious actions.",
+    "time": "2025-03-31T15:10:41.879564"
+  },
+  {
+    "payload": "' OR 46=46 --",
+    "tag": "Type: SQLi\nRisk Level: Low",
+    "time": "2025-03-31T15:10:42.699544"
+  },
+  {
+    "payload": "' OR 47=47 --",
+    "tag": "This payload appears to be an SQL injection (SQLi) attempt. It tries to bypass authentication by making the query always evaluate to true. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:44.379713"
+  },
+  {
+    "payload": "' OR 48=48 --",
+    "tag": "This payload is attempting SQL injection by providing a condition that is always true ('48=48') and then commenting out the rest of the query with '--'. \n\n### Classification\n- **Type:** SQL Injection (SQLi)\n- **Risk:** High\n\n### Additional Notes\nThis payload aims to manipulate the SQL query to return unauthorized data or perform unauthorized actions in the database, which could potentially lead to data leakage, modification, or deletion. It is a high-risk payload that could lead to a successful SQL injection attack if not properly mitigated.",
+    "time": "2025-03-31T15:10:46.285911"
+  },
+  {
+    "payload": "' OR 49=49 --",
+    "tag": "This payload is an SQL injection (SQLi) risk. The risk level is Low as it is a basic payload which may not work on all vulnerable parameters but can be used as a part of more complex injections.",
+    "time": "2025-03-31T15:10:47.305655"
+  },
+  {
+    "payload": "' OR 50=50 --",
+    "tag": "This payload is an SQLi (SQL Injection) attack. The payload attempts to inject SQL code into a query to make it always evaluate to true, in this case by using the condition '50=50'. \n\nRisk Level: High",
+    "time": "2025-03-31T15:10:48.278156"
+  }
+]
