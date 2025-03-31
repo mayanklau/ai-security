@@ -1,3 +1,0 @@
-No obvious issue for payload: 1. XSS payload: <script>alert("XSS vulnerability found")</script> - This payload can be inserted into any input field to test for Cross-Site Scripting vulnerability.
-No obvious issue for payload: 2. SQL Injection payload: ' OR '1'='1' -- - This payload can be inserted into a login form to test for SQL Injection vulnerability.
-No obvious issue for payload: 3. Directory Traversal payload: ../../../../../../../../../../etc/passwd - This payload can be inserted into a file upload form to test for Directory Traversal vulnerability.
