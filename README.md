@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mayanklau/ai-security/main/assets/banner.png" alt="VulnScout Banner" />
+  <img src="https://i.imgur.com/GY0RAfW.png" alt="VulnScout Banner" />
 </p>
 
 # ⚔️ VulnScout – The Agentic Security Toolkit
