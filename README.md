@@ -1,103 +1,109 @@
+Absolutely! Here's a visually impactful, GitHub-friendly README.md that combines clean design, emojis, section dividers, and formatting for better readability and appeal:
 
-# ⚔️ VulnScout – The Agentic Security Toolkit
-
-**Scouting for vulnerabilities in your web applications. Powered by AI + Classic Security Tools.**  
-A modular, script-driven toolkit for ethical hackers, researchers, and red teamers. Built for **Termux**, integrated with **GitHub**, and designed to be extended.
 
 ---
 
-## 🚀 Features
+# ⚔️ VulnScout – Agentic AI Security Toolkit
 
-### ✅ Agentic AI Modules
-- **Payload Generator** for:
-  - XSS
-  - SQLi
-  - LFI
-  - RCE
-- **Payload Tester**: Automatically tests target URL for reflected or injectable vulnerabilities.
-- **Manual Tagging**: Tag payloads as XSS, SQLi, RCE, or Unknown.
-- **Risk Report Generator**: Markdown-based reports with risk summaries.
-- **Scheduler**: Run background scans every few hours (via `background_scheduler.py`).
-- **GitHub Integration**: Push payloads, results, and reports to your repo automatically.
-- **.env Config**: Secure config with OpenAI API key and target URL.
+![VulnScout Logo](https://github.com/mayanklau/ai-security/raw/main/assets/banner.png)
+
+> **VulnScout** is your AI-powered, agentic security companion — combining automation with essential open-source tools to help ethical hackers, researchers, and security teams rapidly identify and respond to web security threats.
 
 ---
 
-### 🔧 Integrated Security Tools
-| Tool        | Purpose                  |
-|-------------|---------------------------|
-| `nmap`      | Network scanning          |
-| `sqlmap`    | SQL Injection detection   |
-| `whatweb`   | Web tech fingerprinting   |
-| `xsstrike`  | AI-powered XSS scanner    |
-| `wfuzz`     | Parameter fuzzing         |
-| `dirb`      | Directory brute-force     |
-| `nikto`     | Web vulnerability scanner |
-| `amass`     | Subdomain enumeration     |
+## 🚀 Features at a Glance
+
+| Tool      | Purpose                               |
+|-----------|----------------------------------------|
+| **Nmap**  | Network scanning & host discovery     |
+| **SQLMap**| Automated SQL injection detection     |
+| **WhatWeb**| Web technology fingerprinting         |
+| **XSStrike**| AI-powered XSS vulnerability scanner |
+| **Wfuzz** | Fuzzing for parameters/endpoints      |
+| **Dirb**  | Directory brute-forcing               |
+| **Nikto** | Web server vulnerability scanner      |
+| **Amass** | Subdomain enumeration                 |
 
 ---
 
-## 🗂️ Folder Structure
+## ⚙️ Installation
 
-ai-security/ ├── menu.py                   # CLI launcher ├── push_report.sh            # GitHub push automation ├── reports/ │   ├── tool_runner.py        # Main scanner: Nmap, Sqlmap, XSStrike, etc. │   └── report_*.md           # Generated reports ├── generate_payloads.py      # Agentic payload generator ├── test_payloads.py          # Payload testing module ├── manual_tagging.py         # Optional payload labeler ├── generate_report.py        # Risk report creator ├── github_push.py            # GitHub sync script ├── background_scheduler.py   # Runs scans on intervals ├── .env                      # Secrets + config (excluded from Git) ├── output/ │   ├── payloads_tagged.csv/.json │   ├── results.csv/.json │   └── log.txt
-
----
-
-## ⚙️ Getting Started
-
-### 1. Install Requirements
 ```bash
+# Clone the repository
+git clone https://github.com/mayanklau/ai-security.git
+cd ai-security
+
+# Create a virtual environment
+python3 -m venv ai-security-env
+source ai-security-env/bin/activate
+
+# Install dependencies
 pip install -r requirements.txt
-pkg install git python curl nmap perl dirb -y
-
-2. Setup .env file
-
-TARGET_URL=http://example.com
-OPENAI_API_KEY=sk-xxxxxxxxxxx
-
-3. Run Core Modules
-
-python generate_payloads.py
-python test_payloads.py
-python generate_report.py
-
-4. Push to GitHub
-
-python github_push.py
-
-5. Schedule Background Scans
-
-python background_scheduler.py
 
 
 ---
 
-✨ Use Cases
+🧠 Usage
 
-Fast payload generation and testing for CTFs
+Run the interactive menu to execute any tool or all in one go:
 
-Scheduled recon on authorized targets
+python3 security_toolkit_menu.py
 
-Learn web security hands-on with integrated tools
+You can also run individual components like:
 
-Maintain a GitHub-based trail of risk findings
+python3 main.py
 
-Automate red team prep via Termux
+
+---
+
+📂 Project Structure
+
+ai-security/
+├── agents/                # Autonomous agents for scanning
+├── modules/               # Core modules: tagging, testing, payloads
+├── output/                # Results (JSON/CSV)
+├── assets/                # Logo, images
+├── security_toolkit_menu.py
+└── main.py
+
+
+---
+
+🧩 Integrations & Capabilities
+
+GPT tagging of payloads using OpenAI
+
+Modular support for new tools
+
+Result export in Markdown, JSON, and CSV
+
+GitHub push and Telegram alert support
 
 
 
 ---
 
-⚠️ Disclaimer
+📜 License
 
-This tool is intended only for educational and authorized security testing.
-Never scan or attack systems you don’t have permission to test.
-Unauthorized access is illegal and unethical.
+Licensed under the MIT License.
 
 
 ---
 
-⭐ Credits
+> Created by Mayank Lau
+Contribute, fork, and star the repo to support the project!
 
-Created by @mayanklau — Powered by OpenAI + Termux + classic infosec tools.
+
+
+---
+
+### How to Use
+
+1. Copy the entire Markdown text above.
+2. Go to your GitHub repo: [https://github.com/mayanklau/ai-security](https://github.com/mayanklau/ai-security)
+3. Click `README.md` → Pencil icon (✏️) to edit.
+4. Paste the new text.
+5. Scroll down and **Commit changes**.
+
+Let me know if you want to include badges, links, or more visuals!
 
