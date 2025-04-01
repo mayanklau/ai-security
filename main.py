@@ -93,10 +93,16 @@ def main():
     print("=== Agentic AI Security Scanner ===")
     generate_payloads()
 
-    api_key = input("Enter your OpenAI API key: ")
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        print("Error: OPENAI_API_KEY not found in environment variables")
+        return
+        
     tag_payloads(api_key)
 
-    url = input("Enter target website URL (e.g. http://demo.testfire.net): ")
+    url = input("Enter target website URL (include http:// or https://): ")
+    if not url.startswith(('http://', 'https://')):
+        url = 'http://' + url
     test_payloads(url)
 
     print("=== Done! All outputs saved. ===")
