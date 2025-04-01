@@ -91,15 +91,3 @@ Contribute, fork, and star the repo to support the project!
 
 
 
----
-
-### How to Use
-
-1. Copy the entire Markdown text above.
-2. Go to your GitHub repo: [https://github.com/mayanklau/ai-security](https://github.com/mayanklau/ai-security)
-3. Click `README.md` → Pencil icon (✏️) to edit.
-4. Paste the new text.
-5. Scroll down and **Commit changes**.
-
-Let me know if you want to include badges, links, or more visuals!
-
