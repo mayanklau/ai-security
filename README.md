@@ -1,7 +1,3 @@
-Absolutely! Here's a visually impactful, GitHub-friendly README.md that combines clean design, emojis, section dividers, and formatting for better readability and appeal:
-
-
----
 
 # ⚔️ VulnScout – Agentic AI Security Toolkit
 
