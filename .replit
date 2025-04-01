@@ -1,0 +1,20 @@
+modules = ["python-3.12"]
+run = "pip install -r requirements.txt"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "pip install -r requirements.txt"]
+
+[workflows]
+runButton = "Run Security Tests"
+
+[[workflows.workflow]]
+name = "Run Security Tests"
+author = 41000773
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python main.py"
