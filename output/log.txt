@@ -21,3 +21,17 @@
 [2025-03-31 17:14:01] Tagged payloads saved
 [2025-03-31 17:15:38] Testing payloads against: demo.testfire.net
 [2025-03-31 17:15:38] Testing results saved to output/
+[2025-04-01 13:13:09] Generated 200 payloads
+[2025-04-01 13:13:09] Tagging first 100 payloads using GPT...
+[2025-04-01 13:13:09] Tagged payloads saved
+[2025-04-01 13:13:21] Testing payloads against: example.com
+[2025-04-01 13:13:21] Testing results saved to output/
+[2025-04-01 13:41:09] Generated 200 payloads
+[2025-04-01 13:41:09] Tagging first 100 payloads using GPT...
+[2025-04-01 13:41:09] Payloads generated and tagged successfully.
+[2025-04-01 13:43:27] Generated 200 payloads
+[2025-04-01 13:43:27] Tagging first 100 payloads using GPT...
+[2025-04-01 13:43:27] Payloads generated and tagged successfully.
+[2025-04-01 13:43:42] Generated 200 payloads
+[2025-04-01 13:43:42] Tagging first 100 payloads using GPT...
+[2025-04-01 13:43:42] Payloads generated and tagged successfully.

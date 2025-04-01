@@ -1,45 +1,78 @@
-from modules.payloads.generator import generate_all
-from modules.tagging.gpt_tagger import tag_payloads
-from modules.testing.tester import test_payloads
-from modules.utils.logger import log
-import csv, json, os
+import os
+import json
 
-# Ensure output directory exists
-os.makedirs("output", exist_ok=True)
+# Function to run Nmap (example command)
+def run_nmap():
+    print("Running Nmap scan...")
+    os.system("nmap -sP 192.168.0.1/24")  # Replace with your actual Nmap command
+    print("Nmap scan complete!")
 
-# Step 1: Generate Payloads
-payloads = generate_all()
-log(f"Generated {len(payloads)} payloads")
+# Function to run SQLMap (example command)
+def run_sqlmap():
+    print("Running SQLMap scan...")
+    os.system("sqlmap -u http://example.com --batch")  # Replace with your actual SQLMap command
+    print("SQLMap scan complete!")
 
-# Step 2: Tag with GPT
-log("Tagging first 100 payloads using GPT...")
-tagged = tag_payloads(payloads[:100])
+# Function to run WhatWeb (example command)
+def run_whatweb():
+    print("Running WhatWeb scan...")
+    os.system("whatweb http://example.com")  # Replace with your actual WhatWeb command
+    print("WhatWeb scan complete!")
 
-# Step 3: Save tagged payloads
-with open("output/payloads_tagged.json", "w") as jf:
-    json.dump(tagged, jf, indent=2)
+# Function to run XSStrike (example command)
+def run_xsstrike():
+    print("Running XSStrike scan...")
+    os.system("xsstrike -u http://example.com")  # Replace with your actual XSStrike command
+    print("XSStrike scan complete!")
 
-with open("output/payloads_tagged.csv", "w") as cf:
-    writer = csv.DictWriter(cf, fieldnames=["payload", "tag", "time"])
-    writer.writeheader()
-    writer.writerows(tagged)
+# Function to run Wfuzz (example command)
+def run_wfuzz():
+    print("Running Wfuzz scan...")
+    os.system("wfuzz -c -z file,/path/to/wordlist -u http://example.com/FUZZ")  # Replace with your actual Wfuzz command
+    print("Wfuzz scan complete!")
 
-log("Tagged payloads saved")
+# Function to run Dirb (example command)
+def run_dirb():
+    print("Running Dirb scan...")
+    os.system("dirb http://example.com")  # Replace with your actual Dirb command
+    print("Dirb scan complete!")
 
-# Step 4: Get target URL
-url = input("Enter target website URL (e.g. http://demo.testfire.net): ")
+# Function to run Nikto (example command)
+def run_nikto():
+    print("Running Nikto scan...")
+    os.system("nikto -h http://example.com")  # Replace with your actual Nikto command
+    print("Nikto scan complete!")
 
-# Step 5: Test payloads on URL
-log(f"Testing payloads against: {url}")
-results = test_payloads(payloads[:100], url)
+# Function to run Amass (example command)
+def run_amass():
+    print("Running Amass scan...")
+    os.system("amass enum -d example.com")  # Replace with your actual Amass command
+    print("Amass scan complete!")
 
-# Step 6: Save test results
-with open("output/results.json", "w") as jf:
-    json.dump(results, jf, indent=2)
+# Full Scan Logic
+if __name__ == "__main__":
+    # Run Nmap scan
+    run_nmap()
 
-with open("output/results.csv", "w") as cf:
-    writer = csv.DictWriter(cf, fieldnames=["payload", "reflected", "error"])
-    writer.writeheader()
-    writer.writerows(results)
+    # Run SQLMap scan
+    run_sqlmap()
 
-log("Testing results saved to output/")
+    # Run WhatWeb scan
+    run_whatweb()
+
+    # Run XSStrike scan
+    run_xsstrike()
+
+    # Run Wfuzz scan
+    run_wfuzz()
+
+    # Run Dirb scan
+    run_dirb()
+
+    # Run Nikto scan
+    run_nikto()
+
+    # Run Amass scan
+    run_amass()
+
+    print("Full scan completed.")
