@@ -1,3 +1,4 @@
 git add .gitignore
 git commit -m "Update .gitignore to exclude output files"
 git push origin main
+.env

@@ -1,0 +1,101 @@
+payload,reflected,error
+<script>alert(1)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(2)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(3)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(4)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(5)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(6)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(7)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(8)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(9)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(10)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(11)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(12)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(13)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(14)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(15)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(16)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(17)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(18)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(19)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(20)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(21)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(22)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(23)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(24)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(25)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(26)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(27)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(28)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(29)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(30)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(31)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(32)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(33)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(34)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(35)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(36)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(37)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(38)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(39)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(40)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(41)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(42)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(43)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(44)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(45)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(46)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(47)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(48)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(49)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+<script>alert(50)</script>,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 1=1 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 2=2 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 3=3 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 4=4 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 5=5 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 6=6 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 7=7 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 8=8 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 9=9 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 10=10 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 11=11 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 12=12 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 13=13 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 14=14 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 15=15 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 16=16 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 17=17 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 18=18 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 19=19 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 20=20 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 21=21 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 22=22 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 23=23 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 24=24 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 25=25 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 26=26 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 27=27 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 28=28 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 29=29 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 30=30 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 31=31 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 32=32 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 33=33 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 34=34 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 35=35 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 36=36 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 37=37 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 38=38 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 39=39 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 40=40 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 41=41 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 42=42 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 43=43 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 44=44 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 45=45 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 46=46 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 47=47 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 48=48 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 49=49 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
+' OR 50=50 --,False,Invalid URL 'example.com': No scheme supplied. Perhaps you meant https://example.com?
